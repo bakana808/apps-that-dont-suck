@@ -116,6 +116,7 @@ _(These text editors are mostly targeted toward programmers.)_
 ##### Conversion
 
 - [__ffmpeg__][ffmpeg]
+- [Miro Video Converter][mirovideoconverter]
 - [FormatFactory][formatfactory]
 
 ### Screen Capture
@@ -284,7 +285,7 @@ Contributors
 [google drive]: https://www.google.com/drive/
 [dropbox]: https://www.dropbox.com/en/
 [ninite]: https://ninite.com/
-
 [cccp]: http://www.cccp-project.net/
 [klite]: http://www.codecguide.com/download_kl.htm
 [gifcam]: http://blog.bahraniapps.com/gifcam/
+[mirovideoconverter]: http://www.mirovideoconverter.com/
