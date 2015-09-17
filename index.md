@@ -56,17 +56,24 @@ __Bold__ -- "essential" recommendations
 #### Anti-Virus & Firewall
 
 - [__Comodo Internet Security__][comodo]
+- [Avast][avast]
 - [Malwarebytes][malwarebytes]
 - [Kasperky][kasperky]
+- [Hitman Pro][hitmanpro]
 
 #### Social
 
 - [Skype][skype]
+- [HexChat][hexchat] -- an open-source IRC client
 
 #### Internet & Network
 
 - [__Firefox__][firefox]
+- [Waterfox][waterfox] -- a high-performance branch of the firefox project
 - [__Google Chrome__][google chrome]
+- [Vivaldi][vivaldi]
+- [Pale Moon][palemoon]
+
 - [Fiddler][fiddler] -- a web debugging proxy
 
 #### Office
@@ -131,6 +138,7 @@ _(These text editors are mostly targeted toward programmers.)_
 
 #### Looks & Themes
 
+- [Classic Shell][classicshell]
 - [__f.lux__][flux] -- colors your desktop depending on time of day
 - [Rainmeter][rainmeter] -- add widgets, clocks, and that kind of crap to your screen
 - [UXStyle][uxstyle] -- enables complete theming of your windows system, down to UI elements
@@ -185,6 +193,14 @@ _(These text editors are mostly targeted toward programmers.)_
 
 - <https://yourlogicalfallacyis.com/> -- paste text from here next time you're in an argument you can't win[/QUOTE]
 
+---
+
+Contributors
+---
+
+- octopod
+- \~Kiwi\~v2
+
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 [adobe flash]: http://get.adobe.com/flashplayer
@@ -236,3 +252,10 @@ _(These text editors are mostly targeted toward programmers.)_
 [windivvy]: http://mizage.com/windivvy/
 [qbittorrent]: http://www.qbittorrent.org/
 [git-scm]: http://git-scm.com/
+[vivaldi]: https://vivaldi.com/
+[palemoon]: https://www.palemoon.org/
+[waterfox]: https://www.waterfoxproject.org/
+[hexchat]: https://hexchat.github.io/
+[hitmanpro]: http://www.surfright.nl/en/hitmanpro
+[avast]: https://www.avast.com/en-us/index
+[classicshell]: http://www.classicshell.net/
