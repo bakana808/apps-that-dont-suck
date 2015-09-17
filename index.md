@@ -259,3 +259,5 @@ Contributors
 [hitmanpro]: http://www.surfright.nl/en/hitmanpro
 [avast]: https://www.avast.com/en-us/index
 [classicshell]: http://www.classicshell.net/
+[google drive]: https://www.google.com/drive/
+[dropbox]: https://www.dropbox.com/en/
