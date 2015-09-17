@@ -189,6 +189,8 @@ _(These text editors are mostly targeted toward programmers.)_
 
 ## Websites
 
+- <http://nanami-tan.info/> -- a extensive list of Windows-related tutorials, recommended programs, and visual styles
+
 - <http://www.speedtest.net/> -- show off how bad/good your internet is
 - <http://10fastfingers.com/> -- amazing typing test competition 2015
 - <https://www.humblebundle.com/> -- bundles of games for cheap and help charity
@@ -223,6 +225,7 @@ Contributors
 - \~Kiwi\~v2
 - KillerTele
 - ScottyWired
+- Scratch.
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
