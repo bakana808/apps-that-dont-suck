@@ -44,8 +44,8 @@ __Bold__ -- "essential" recommendations
 
 #### File Sharing
 
-- [__Puush__][puush] -- upload and share files and screenshots easily with keyboard shortcuts
-- [ShareX][sharex] -- open-source alternative to Puush
+- [Puush][puush] -- upload and share files and screenshots easily with keyboard shortcuts
+- [__ShareX__][sharex] -- open-source alternative to Puush
 - [__Google Drive__][google drive]
 - [Dropbox][dropbox]
 
@@ -150,6 +150,7 @@ _(These text editors are mostly targeted toward programmers.)_
 - [Speccy][speccy] -- lists all your hardware specifications for easy bragging
 - [Space Sniffer][spacesniffer] -- visualizes locations on your hard drive as boxes depending on size
 - [WinDivvy] -- precise window tiling
+- [Ninite][ninite] -- automatically update and install popular apps
 
 #### Programming
 
@@ -200,6 +201,7 @@ Contributors
 
 - octopod
 - \~Kiwi\~v2
+- KillerTele
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -261,3 +263,4 @@ Contributors
 [classicshell]: http://www.classicshell.net/
 [google drive]: https://www.google.com/drive/
 [dropbox]: https://www.dropbox.com/en/
+[ninite]: https://ninite.com/
