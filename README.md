@@ -35,25 +35,25 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 _Italics_ -- paid software\
 __Bold__ -- "essential" recommendations
 
-#### Drivers & Miscellaneous
+### Drivers & Miscellaneous
 
 - Java 7 [__JRE__][java7jre] / [JDK][java7jdk]
 - [Adobe Flash Player][adobe flash] -- not recommended as it will be soon replaced with HTML5
 - [__Adobe Reader__][adobe reader] / [_Adobe Reader XI_][adobe reader xi]
 - [__Realtek High Definition Audio__][realtek drivers] -- i recommend finding a version for your motherboard first
 
-#### File Sharing
+### File Sharing
 
 - [Puush][puush] -- upload and share files and screenshots easily with keyboard shortcuts
 - [__ShareX__][sharex] -- open-source alternative to Puush
 - [__Google Drive__][google drive]
 - [Dropbox][dropbox]
 
-#### File Compression
+### File Compression
 
 - [__7zip__][7zip]
 
-#### Anti-Virus & Firewall
+### Anti-Virus & Firewall
 
 - [__Comodo Internet Security__][comodo]
 - [Avast][avast]
@@ -61,12 +61,12 @@ __Bold__ -- "essential" recommendations
 - [Kasperky][kasperky]
 - [Hitman Pro][hitmanpro]
 
-#### Social
+### Social
 
 - [Skype][skype]
 - [HexChat][hexchat] -- an open-source IRC client
 
-#### Internet & Network
+### Internet & Network
 
 - [__Firefox__][firefox]
 - [Waterfox][waterfox] -- a high-performance branch of the firefox project
@@ -76,13 +76,13 @@ __Bold__ -- "essential" recommendations
 
 - [Fiddler][fiddler] -- a web debugging proxy
 
-#### Office
+### Office
 
 - [__LibreOffice__][libreoffice]
 - [OpenOffice][openoffice]
 - [_Microsoft Office_][microsoft office]
 
-#### Text Editing
+### Text Editing
 
 _(These text editors are mostly targeted toward programmers.)_
 
@@ -90,60 +90,78 @@ _(These text editors are mostly targeted toward programmers.)_
 - [Notepad++][notepad++]
 - [_Sublime Text_][sublime text]
 
-#### Audio
+### Audio
+
+##### Players
 
 - [__foobar2000__][foobar2000]
 - [_Virtual Audio Cable_][virtual audio cable]
 - [VB-Audio Virtual Cable][vb audio virtual cable]
 
-#### Audio Editing
+##### Editing
 
 - [__Audacity__][audacity]
 
-#### Media
+### Media
+
+##### Players
 
 - [VLC Media Player][vlc]
 
-#### Media Conversion
+##### Codecs
+
+- [CCCP][cccp]
+- [K-Lite][klite]
+
+##### Conversion
 
 - [__ffmpeg__][ffmpeg]
 - [FormatFactory][formatfactory]
 
-#### Game Capture
+### Screen Capture
+
+##### Gaming
 
 - [___Dxtory___][dxtory]
 - [_Fraps_][fraps]
 
-#### Joypad-related Stuff
+##### GIF
+- [GifCam][gifcam]
+
+### Joypad
+
+##### Mappers
 
 - [_Joy2Key_][joy2key] -- translates joypad input to keyboard & mouse
 - [_Xpadder_][xpadder] -- alternative to Joy2Key
+
+##### Dualshock 4 Compatability
 - [DS4Windows][ds4windows] -- allows you to use your ps4 controller as an xbox controller via usb or bluetooth
 
-#### Music Production
+### Music Production
 
 - [_FL Studio_][flstudio]
 
-#### Image Editing
+### Image Editing
 
 - [___Adobe Photoshop___][adobe photoshop]
 - [_Adobe Illustrator_][adobe illustrator]
 - [Gimp][gimp]
 - [Inkscape][inkscape]
 
-#### Live-Streaming
+### Live-Streaming
 
 - [__Open Broadcaster Software__][obs]
 - [_XSplit_][xsplit]
 
-#### Looks & Themes
+### Looks & Themes
 
 - [Classic Shell][classicshell]
 - [__f.lux__][flux] -- colors your desktop depending on time of day
 - [Rainmeter][rainmeter] -- add widgets, clocks, and that kind of crap to your screen
 - [UXStyle][uxstyle] -- enables complete theming of your windows system, down to UI elements
 
-#### Cleaning, Organization, Statistics, and Whatever
+### Cleaning, Organization, Statistics, and Whatever
 
 - [__CCleaner__][ccleaner]
 - [clover][clover] -- adds tabs to your file explorer
@@ -152,18 +170,19 @@ _(These text editors are mostly targeted toward programmers.)_
 - [WinDivvy] -- precise window tiling
 - [Ninite][ninite] -- automatically update and install popular apps
 
-#### Programming
+### Programming
 
 - [__Git-SCM__][git-scm] -- a popular version control system
 - Microsoft Visual Studio -- IDE for C++, C#, and VB.net
 - Intellij IDEA -- IDE for Java and Javascript
 - Eclipse -- another IDE for Java
 
-#### Torrenting
+### Torrenting
 
 - UTorrent
 - BitTorrent
 - QBitTorrent
+- Deluge
 
 ---
 
@@ -202,6 +221,7 @@ Contributors
 - octopod
 - \~Kiwi\~v2
 - KillerTele
+- ScottyWired
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -264,3 +284,7 @@ Contributors
 [google drive]: https://www.google.com/drive/
 [dropbox]: https://www.dropbox.com/en/
 [ninite]: https://ninite.com/
+
+[cccp]: http://www.cccp-project.net/
+[klite]: http://www.codecguide.com/download_kl.htm
+[gifcam]: http://blog.bahraniapps.com/gifcam/
