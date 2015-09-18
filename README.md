@@ -37,6 +37,8 @@ __Bold__ -- "essential" recommendations
 
 ### Drivers & Miscellaneous
 
+- [PuTTY][putty]
+
 ##### Flash
 
 - [Adobe Flash Player][adobe flash] -- not recommended as it will be soon replaced with HTML5
@@ -412,3 +414,4 @@ Contributors
 [youtube-dl]: https://rg3.github.io/youtube-dl/
 [advancedrenamer]: http://www.advancedrenamer.com/
 [bulkrenameutility]: http://www.bulkrenameutility.co.uk/Main_Intro.php
+[putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
