@@ -1,0 +1,90 @@
+@bg: #FFFFFF;
+@color_text: #242628;
+@color_link: #4EB6AC;
+
+html, body, button, input, select, textarea
+{
+	color: @color_text;
+	font-family: "Open Sans", freesans, sans-serif;
+	font-size: 14px;
+	line-height: 2;
+}
+
+body
+{
+	background-color: @bg;
+	padding: 40px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+}
+
+p
+{
+
+}
+
+// Headers
+
+h1
+{
+	font-size: 3.5em;
+	line-height: 1.4;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 3em;
+}
+
+h3
+{
+	font-size: 2em;
+}
+
+h4
+{
+	font-size: 1.5em;
+}
+
+h5
+{
+	font-size: 1.2em;
+}
+
+h6
+{
+	font-size: 1em;
+}
+
+// Horizontal Rules
+
+hr
+{
+	height: 1px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+}
+
+// Links
+
+li a, a
+{
+	color: @color_link;
+
+	&:link, &:visited
+	{
+		text-decoration: none;
+	}
+
+	&:hover, &:active
+	{
+		text-decoration: underline;
+	}
+}
