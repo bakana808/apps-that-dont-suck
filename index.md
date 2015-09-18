@@ -38,6 +38,7 @@ __Bold__ -- "essential" recommendations
 ### Drivers & Miscellaneous
 
 - [PuTTY][putty]
+- [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
 ##### Flash
 
@@ -415,3 +416,4 @@ Contributors
 [advancedrenamer]: http://www.advancedrenamer.com/
 [bulkrenameutility]: http://www.bulkrenameutility.co.uk/Main_Intro.php
 [putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+[kitty]: http://kitty.9bis.net/
