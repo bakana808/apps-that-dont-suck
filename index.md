@@ -37,10 +37,11 @@ __Bold__ -- "essential" recommendations
 
 ### Drivers & Miscellaneous
 
-
 ##### Adobe Flash
 
-- [Adobe Flash Player][adobe flash] -- not recommended as it will be soon replaced with HTML5
+(Flash is not recommended as it may be rendered obsolete by HTML5)
+
+- [Adobe Flash Player][adobe flash]
 
 ##### Audio
 
@@ -69,6 +70,48 @@ __Bold__ -- "essential" recommendations
 - [__PuTTY__][putty]
 - [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
+### Anti-Virus & Firewall
+
+- [__Comodo Internet Security__][comodo]
+- [Avast][avast]
+- [Malwarebytes][malwarebytes]
+- [Kasperky][kasperky]
+- [Hitman Pro][hitmanpro]
+
+### Programming
+
+##### GIT
+
+- [__Git SCM__][git-scm]
+
+- [GitHub Desktop][github desktop]
+
+##### C++
+
+- __Microsoft Visual Studio__ -- IDE for C++, C#, and VB.net
+
+##### C#
+
+- __Microsoft Visual Studio__ -- IDE for C++, C#, and VB.net
+
+##### Java
+
+- __Intellij IDEA__ -- IDE for Java and Javascript
+- Eclipse -- another IDE for Java
+
+##### Text Editors
+
+- [__Atom__][atom]
+- [Notepad++][notepad++]
+- [_Sublime Text_][sublime text]
+
+### Torrenting
+
+- __Deluge__
+- UTorrent
+- BitTorrent
+- QBitTorrent
+
 ### File Downloading
 
 - [__youtube-dl__][youtube-dl] -- a set of commandline tools to download media directly off youtube (and other websites)
@@ -88,14 +131,6 @@ __Bold__ -- "essential" recommendations
 ### File Compression
 
 - [__7zip__][7zip]
-
-### Anti-Virus & Firewall
-
-- [__Comodo Internet Security__][comodo]
-- [Avast][avast]
-- [Malwarebytes][malwarebytes]
-- [Kasperky][kasperky]
-- [Hitman Pro][hitmanpro]
 
 ### Social
 
@@ -119,14 +154,6 @@ __Bold__ -- "essential" recommendations
 - [__LibreOffice__][libreoffice]
 - [OpenOffice][openoffice]
 - [_Microsoft Office_][microsoft office]
-
-### Text Editing
-
-_(These text editors are mostly targeted toward programmers.)_
-
-- [__Atom__][atom]
-- [Notepad++][notepad++]
-- [_Sublime Text_][sublime text]
 
 ### Audio
 
@@ -173,32 +200,6 @@ _(These text editors are mostly targeted toward programmers.)_
 
 - [CDisplay Ex][cdisplayex]
 
-### Screen Capture
-
-##### Gaming
-
-- [___Dxtory___][dxtory]
-- [_Fraps_][fraps]
-
-##### GIF
-
-- [GifCam][gifcam]
-
-### Joypad
-
-##### Mappers
-
-- [_Joy2Key_][joy2key] -- translates joypad input to keyboard & mouse
-- [_Xpadder_][xpadder] -- alternative to Joy2Key
-
-##### Dualshock 4 Compatability
-
-- [DS4Windows][ds4windows] -- allows you to use your ps4 controller as an xbox controller via usb or bluetooth
-
-### Music Production
-
-- [_FL Studio_][flstudio]
-
 ### Image
 
 ##### Viewers
@@ -217,16 +218,42 @@ _(These text editors are mostly targeted toward programmers.)_
 - [_Adobe Illustrator_][adobe illustrator]
 - [Inkscape][inkscape]
 
+### Music Production
+
+- [_FL Studio_][flstudio]
+
+### Screen Capture
+
+##### Gaming
+
+- [___Dxtory___][dxtory]
+- [_Fraps_][fraps]
+
+##### GIF
+
+- [GifCam][gifcam]
+
 ### Live-Streaming
 
 - [__Open Broadcaster Software__][obs]
 - [_XSplit_][xsplit]
 
+### Joypad
+
+##### Input Mappers
+
+- [_Joy2Key_][joy2key] -- translates joypad input to keyboard & mouse
+- [_Xpadder_][xpadder] -- alternative to Joy2Key
+
+##### Dualshock 4
+
+- [DS4Windows][ds4windows] -- allows you to use your ps4 controller as an xbox controller via usb or bluetooth
+
 ### Looks & Themes
 
 - [__f.lux__][flux] -- colors your screen depending on time of day
 
-- [Classic Shell][classicshell]
+- [Classic Shell][classicshell] -- restore "classic" windows features
 
 ##### Widgets
 
@@ -262,82 +289,83 @@ _(These text editors are mostly targeted toward programmers.)_
 - [clover][clover] -- adds tabs to your file explorer
 - [WinDivvy] -- precise window tiling
 
-### Programming
-
-##### GIT
-
-- [__Git SCM__][git-scm]
-
-- [GitHub Desktop][github desktop]
-
-##### C++
-
-- __Microsoft Visual Studio__ -- IDE for C++, C#, and VB.net
-
-##### C#
-
-- __Microsoft Visual Studio__ -- IDE for C++, C#, and VB.net
-
-##### Java
-
-- __Intellij IDEA__ -- IDE for Java and Javascript
-- Eclipse -- another IDE for Java
-
-### Torrenting
-
-- UTorrent
-- BitTorrent
-- QBitTorrent
-- Deluge
-
 ---
 
 ## Websites
 
-- <http://nanami-tan.info/> -- a extensive list of Windows-related tutorials, recommended programs, and visual styles
+- <https://www.coinbase.com/> -- a bitcoin service
 
-- <http://textmechanic.com/> -- various text manipulation tools
+### Games
 
-- <http://www.speedtest.net/> -- show off how bad/good your internet is
-- <http://10fastfingers.com/> -- amazing typing test competition 2015
-- <https://www.humblebundle.com/> -- bundles of games for cheap and help charity
-- <http://swfchan.net/> -- a database of flash animations; totally not for porn (no seriously, don't go here at work)
+##### Marketplace
 
-- <https://github.com/> -- for git repositories, contribute to open source projects and whatever
-- <https://gitlab.com/> -- same as above, just an alternative
+- [__Humble Bundle__][humblebundle] -- bundles of games for cheap and help charity
+- [__Steam__][steam] -- you're completely shitting me if you don't know what Steam is
 
-- <http://www.hitbox.tv/> -- an alternative to twitch, personally experienced less stream delay
-- <http://www.twitch.tv/> -- who the hell doesn't know about twitch
+### Internet
+
+##### Speed Testers
+
+- [SpeedTest][speedtest] -- show off how bad/good your internet is
+
+### Typing Tests
+
+- [10FastFingers][10fastfingers] -- amazing typing test competition 2015
+
+### Flash Database
+
+- [SWFchan][swfchan] -- a database of flash animations; totally not for porn (no seriously, don't go here at work)
+
+[swfchan]: http://swfchan.net/
+[10fastfingers]: http://10fastfingers.com/
+
+### Programming
+
+- [__GitHub__][github] -- for git repositories, contribute to open source projects and whatever
+- [GitLab][gitlab] -- an open-source alternative to GitHub
+
+- <http://choosealicense.com/licenses/> -- know what license to choose for your open source project
 
 - <http://www.codecademy.com/> -- learn to code (mostly in scripting languages tho)
+
 - <http://regexr.com/> -- play around with regular expression
-- <http://choosealicense.com/licenses/> -- know what license to choose for your open source project
+
 - <https://open.gl/> -- learn how to use opengl
+
 - <http://www.ideacolorthemes.org/home/> -- some cool themes if you use IDEA
 
-- <http://mycolorscreen.com/> -- a collection of smartphone themes for android and ios, also check out the android app "themer"
+### Live-Streaming
 
-- <https://www.coinbase.com/> -- a bitcoin service (i've made an account but never used it)
+- [twitch.tv][twitch] -- who the hell doesn't know about twitch
+- [hitbox.tv][hitbox] -- an alternative to twitch
+
+### Resources
+
+##### Smartphone Theming
+
+- [__MyColorScreen__][mycolorscreen] -- a collection of smartphone themes for android and ios, also check out the android app "themer"
+
+[mycolorscreen]: http://mycolorscreen.com/
+##### Visual Styles
 
 - <http://www.deviantart.com/browse/all/customization/skins/windows/visualstyle/> -- my go-to for visual styles (the themes of windows); if you use uxstyle you won't have to patch system files
+
+
+##### Similar "Recommended Programs" Lists
+
+- [Nanami-Tan][nanami-tan] -- a extensive list of Windows-related tutorials, recommended programs, and visual styles
+
+[nanami-tan]: <http://nanami-tan.info/>
+
+##### Miscellaneous
+
+- <http://textmechanic.com/> -- various text manipulation tools
 
 - <https://yourlogicalfallacyis.com/> -- paste text from here next time you're in an argument you can't win
 
 ---
 
-Contributors
----
-
-- octopod
-- \~Kiwi\~v2
-- KillerTele
-- ScottyWired
-- Scratch.
-- TheJoker
-- thelurker1234
-- sloppy_joes
-- J!NX
-- Alice3173
+######_octopod • \~Kiwi\~v2 • KillerTele • ScottyWired • Scratch. • TheJoker • thelurker1234 • sloppy_joes • J!NX • Alice3173_
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -424,3 +452,10 @@ Contributors
 [nightingale]: http://getnightingale.com/
 [clementine]: https://www.clementine-player.org/
 [musicbee]: http://getmusicbee.com/
+[humblebundle]: https://www.humblebundle.com/
+[steam]: http://store.steampowered.com/
+[speedtest]: http://www.speedtest.net/
+[github]: https://github.com/
+[gitlab]: https://gitlab.com/
+[twitch]: http://www.twitch.tv/
+[hitbox]: http://www.hitbox.tv/
