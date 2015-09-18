@@ -46,8 +46,11 @@ __Bold__ -- "essential" recommendations
 
 - [__Realtek High Definition Audio__][realtek drivers] -- i recommend finding a version for your motherboard first
 
+- [UNi Xonar Unified Drivers][uni-xonar]
+
 ##### Linux Functionality
 
+- [MinGW][mingw]
 - [Cygwin][cygwin]
 
 ##### Java
@@ -130,6 +133,10 @@ _(These text editors are mostly targeted toward programmers.)_
 ##### Players
 
 - [__foobar2000__][foobar2000]
+- [Nightingale][nightingale]
+- [Clementine][clementine]
+- [MusicBee][musicbee]
+
 - [_Virtual Audio Cable_][virtual audio cable]
 - [VB-Audio Virtual Cable][vb audio virtual cable]
 
@@ -412,3 +419,8 @@ Contributors
 [bulkrenameutility]: http://www.bulkrenameutility.co.uk/Main_Intro.php
 [putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 [kitty]: http://kitty.9bis.net/
+[mingw]: http://www.mingw.org/
+[uni-xonar]: http://maxedtech.com/asus-xonar-unified-drivers/
+[nightingale]: http://getnightingale.com/
+[clementine]: https://www.clementine-player.org/
+[musicbee]: http://getmusicbee.com/
