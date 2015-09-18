@@ -37,10 +37,8 @@ __Bold__ -- "essential" recommendations
 
 ### Drivers & Miscellaneous
 
-- [PuTTY][putty]
-- [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
-##### Flash
+##### Adobe Flash
 
 - [Adobe Flash Player][adobe flash] -- not recommended as it will be soon replaced with HTML5
 
@@ -57,23 +55,20 @@ __Bold__ -- "essential" recommendations
 - [__Java 7 Runtime Environment (JRE)__][java7jre]
 - [Java 7 Development Kit (JDK)][java7jdk]
 
-##### FTP
+##### FTP Clients
 
 - [WinSCP][winscp]
 - [Cyberduck][cyberduck]
 - [Filezilla][filezilla]
 
-##### Flash
+##### SSH Clients
 
-- [Adobe Flash Player][adobe flash] -- not recommended as it will be soon replaced with HTML5
+- [__PuTTY__][putty]
+- [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
-##### Audio
+### File Downloading
 
-- [__Realtek High Definition Audio__][realtek drivers] -- i recommend finding a version for your motherboard first
-
-### Downloading
-
-- [youtube-dl][youtube-dl] -- a set of commandline tools to download media directly off youtube (and other websites)
+- [__youtube-dl__][youtube-dl] -- a set of commandline tools to download media directly off youtube (and other websites)
 
 ### File Sharing
 
