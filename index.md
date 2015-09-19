@@ -34,6 +34,30 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 _Italics_ -- paid software\
 __Bold__ -- "essential" recommendations
 
+### Anti-Virus & Firewall
+
+- [__Comodo Internet Security__][comodo]
+- [Avast][avast]
+- [Malwarebytes][malwarebytes]
+- [Kasperky][kasperky]
+- [Hitman Pro][hitmanpro]
+
+### Audio
+
+##### Players
+
+- [__foobar2000__][foobar2000]
+- [Nightingale][nightingale]
+- [Clementine][clementine]
+- [MusicBee][musicbee]
+
+- [_Virtual Audio Cable_][virtual audio cable]
+- [VB-Audio Virtual Cable][vb audio virtual cable]
+
+##### Editing
+
+- [__Audacity__][audacity]
+
 ### Drivers & Miscellaneous
 
 ##### Adobe Flash
@@ -69,13 +93,139 @@ __Bold__ -- "essential" recommendations
 - [__PuTTY__][putty]
 - [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
-### Anti-Virus & Firewall
+### File Compression
 
-- [__Comodo Internet Security__][comodo]
-- [Avast][avast]
-- [Malwarebytes][malwarebytes]
-- [Kasperky][kasperky]
-- [Hitman Pro][hitmanpro]
+- [__7zip__][7zip]
+
+### File Downloading
+
+- [__youtube-dl__][youtube-dl] -- a set of commandline tools to download media directly off youtube (and other websites)
+
+### File Sharing
+
+##### Screenshots
+
+- [Puush][puush] -- upload and share files and screenshots easily with keyboard shortcuts
+- [__ShareX__][sharex] -- open-source alternative to Puush
+
+##### File Syncing
+
+- [__Google Drive__][google drive]
+- [Dropbox][dropbox]
+
+### Image
+
+##### Viewers
+
+- [XnView][xnview]
+- [Honeyview][honeyview]
+- [HandBrake][handbrake]
+
+##### Raster Editors
+
+- [___Adobe Photoshop___][adobe photoshop]
+- [Gimp][gimp]
+
+##### Vector Editors
+
+- [_Adobe Illustrator_][adobe illustrator]
+- [Inkscape][inkscape]
+
+### Internet & Network
+
+- [Fiddler][fiddler] -- a web debugging proxy
+
+##### Browsers
+
+- [__Firefox__][firefox]
+- [Waterfox][waterfox] -- a high-performance branch of the firefox project
+- [__Google Chrome__][google chrome]
+- [Vivaldi][vivaldi]
+- [Pale Moon][palemoon]
+
+### Joypad
+
+##### Input Mappers
+
+- [_Joy2Key_][joy2key] -- translates joypad input to keyboard & mouse
+- [_Xpadder_][xpadder] -- alternative to Joy2Key
+
+##### Dualshock 4
+
+- [DS4Windows][ds4windows] -- allows you to use your ps4 controller as an xbox controller via usb or bluetooth
+
+### Live-Streaming
+
+- [__Open Broadcaster Software__][obs]
+- [_XSplit_][xsplit]
+
+### Looks & Themes
+
+- [__f.lux__][flux] -- colors your screen depending on time of day
+
+- [Classic Shell][classicshell] -- restore "classic" windows features
+
+##### Widgets
+
+- [Rainmeter][rainmeter] -- add widgets, clocks, and that kind of crap to your screen
+
+##### Visual Styles
+
+- [UXStyle][uxstyle] -- enables complete theming of your windows system, down to UI elements
+
+### Media
+
+##### Players
+
+- [MPC-HC][mpc-hc]
+- [VLC Media Player][vlc]
+
+##### Codecs
+
+- [CCCP][cccp]
+- [K-Lite][klite]
+
+##### Conversion
+
+- [__ffmpeg__][ffmpeg]
+- [Miro Video Converter][mirovideoconverter]
+- [FormatFactory][formatfactory]
+
+### Music Production
+
+- [_FL Studio_][flstudio]
+
+### Office
+
+- [__LibreOffice__][libreoffice]
+- [OpenOffice][openoffice]
+- [_Microsoft Office_][microsoft office]
+
+### Organization
+
+##### Bulk Renamers
+
+- [Advanced Renamer][advancedrenamer]
+- [Bulk Rename Utility][bulkrenameutility]
+
+##### Program Auto-Updaters
+
+- [Ninite][ninite] -- automatically update and install popular apps
+
+##### Specification Display
+
+- [Speccy][speccy] -- lists all your hardware specifications for easy bragging
+
+##### Cleaning Tools
+
+- [__CCleaner__][ccleaner]
+
+- [Space Sniffer][spacesniffer] -- visualizes locations on your hard drive as boxes depending on size
+
+##### Productivity Helpers
+
+- [clover][clover] -- adds tabs to your file explorer
+- [WinDivvy] -- precise window tiling
 
 ### Programming
 
@@ -104,90 +254,6 @@ __Bold__ -- "essential" recommendations
 - [Notepad++][notepad++]
 - [_Sublime Text_][sublime text]
 
-### Torrenting
-
-- __Deluge__
-- UTorrent
-- BitTorrent
-- QBitTorrent
-
-### File Downloading
-
-- [__youtube-dl__][youtube-dl] -- a set of commandline tools to download media directly off youtube (and other websites)
-
-### File Sharing
-
-##### Screenshots
-
-- [Puush][puush] -- upload and share files and screenshots easily with keyboard shortcuts
-- [__ShareX__][sharex] -- open-source alternative to Puush
-
-##### File Syncing
-
-- [__Google Drive__][google drive]
-- [Dropbox][dropbox]
-
-### File Compression
-
-- [__7zip__][7zip]
-
-### Social
-
-- [Skype][skype]
-- [HexChat][hexchat] -- an open-source IRC client
-
-### Internet & Network
-
-- [Fiddler][fiddler] -- a web debugging proxy
-
-##### Browsers
-
-- [__Firefox__][firefox]
-- [Waterfox][waterfox] -- a high-performance branch of the firefox project
-- [__Google Chrome__][google chrome]
-- [Vivaldi][vivaldi]
-- [Pale Moon][palemoon]
-
-### Office
-
-- [__LibreOffice__][libreoffice]
-- [OpenOffice][openoffice]
-- [_Microsoft Office_][microsoft office]
-
-### Audio
-
-##### Players
-
-- [__foobar2000__][foobar2000]
-- [Nightingale][nightingale]
-- [Clementine][clementine]
-- [MusicBee][musicbee]
-
-- [_Virtual Audio Cable_][virtual audio cable]
-- [VB-Audio Virtual Cable][vb audio virtual cable]
-
-##### Editing
-
-- [__Audacity__][audacity]
-
-### Media
-
-##### Players
-
-- [MPC-HC][mpc-hc]
-- [VLC Media Player][vlc]
-
-##### Codecs
-
-- [CCCP][cccp]
-- [K-Lite][klite]
-
-##### Conversion
-
-- [__ffmpeg__][ffmpeg]
-- [Miro Video Converter][mirovideoconverter]
-- [FormatFactory][formatfactory]
-
 ### Readers
 
 ##### PDF
@@ -198,28 +264,6 @@ __Bold__ -- "essential" recommendations
 ##### Comic Book
 
 - [CDisplay Ex][cdisplayex]
-
-### Image
-
-##### Viewers
-
-- [XnView][xnview]
-- [Honeyview][honeyview]
-- [HandBrake][handbrake]
-
-##### Raster Editors
-
-- [___Adobe Photoshop___][adobe photoshop]
-- [Gimp][gimp]
-
-##### Vector Editors
-
-- [_Adobe Illustrator_][adobe illustrator]
-- [Inkscape][inkscape]
-
-### Music Production
-
-- [_FL Studio_][flstudio]
 
 ### Screen Capture
 
@@ -232,61 +276,17 @@ __Bold__ -- "essential" recommendations
 
 - [GifCam][gifcam]
 
-### Live-Streaming
+### Social
 
-- [__Open Broadcaster Software__][obs]
-- [_XSplit_][xsplit]
+- [Skype][skype]
+- [HexChat][hexchat] -- an open-source IRC client
 
-### Joypad
+### Torrenting
 
-##### Input Mappers
-
-- [_Joy2Key_][joy2key] -- translates joypad input to keyboard & mouse
-- [_Xpadder_][xpadder] -- alternative to Joy2Key
-
-##### Dualshock 4
-
-- [DS4Windows][ds4windows] -- allows you to use your ps4 controller as an xbox controller via usb or bluetooth
-
-### Looks & Themes
-
-- [__f.lux__][flux] -- colors your screen depending on time of day
-
-- [Classic Shell][classicshell] -- restore "classic" windows features
-
-##### Widgets
-
-- [Rainmeter][rainmeter] -- add widgets, clocks, and that kind of crap to your screen
-
-##### Visual Styles
-
-- [UXStyle][uxstyle] -- enables complete theming of your windows system, down to UI elements
-
-### Organization
-
-##### Bulk Renamers
-
-- [Advanced Renamer][advancedrenamer]
-- [Bulk Rename Utility][bulkrenameutility]
-
-##### Program Auto-Updaters
-
-- [Ninite][ninite] -- automatically update and install popular apps
-
-##### Specification Display
-
-- [Speccy][speccy] -- lists all your hardware specifications for easy bragging
-
-##### Cleaning Tools
-
-- [__CCleaner__][ccleaner]
-
-- [Space Sniffer][spacesniffer] -- visualizes locations on your hard drive as boxes depending on size
-
-##### Productivity Helpers
-
-- [clover][clover] -- adds tabs to your file explorer
-- [WinDivvy] -- precise window tiling
+- __Deluge__
+- UTorrent
+- BitTorrent
+- QBitTorrent
 
 ---
 
