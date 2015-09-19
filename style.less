@@ -2,21 +2,39 @@
 @color_text: #242628;
 @color_link: #4EB6AC;
 
-html, body, button, input, select, textarea
+body
 {
+	background-color: @bg;
+	padding: 40px;
+	position: relative;
+	margin-left: 240px;
 	color: @color_text;
 	font-family: "Open Sans", freesans, sans-serif;
 	font-size: 14px;
 	line-height: 2;
 }
 
-body
+// Table of Contents
+
+#TOC
 {
-	background-color: @bg;
-	padding: 40px;
+	position: fixed;
+	top: 0; left: 0;
+	padding-left: 0px;
+
+	height: 100%, width: 200px;
+	padding-right: 25px;
+
+	ul {
+		list-style: none;
+	}
+
+	li a {
+		display: block;
+	}
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, #title
 {
 	-webkit-font-smoothing: antialiased;
 	font-weight: bold;
@@ -29,7 +47,7 @@ p
 
 // Headers
 
-h1
+h1, #title
 {
 	font-size: 3.5em;
 	line-height: 1.4;

@@ -1,6 +1,5 @@
 
-Useful and Essential Programs and Websites
-===
+<div id='title'> Useful and Essential Programs and Websites </div>
 
 As someone who owns both a desktop and laptop with Windows 8, I want my programs to be consistent between the two. This might take some planning so I'd might as well turn it into a thread or something for other people to use.
 
@@ -263,7 +262,7 @@ __Bold__ -- "essential" recommendations
 
 - [UXStyle][uxstyle] -- enables complete theming of your windows system, down to UI elements
 
-### Cleaning, Organization, Statistics, and Whatever
+### Organization
 
 ##### Bulk Renamers
 
