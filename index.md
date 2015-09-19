@@ -401,7 +401,9 @@ __Bold__ -- "essential" recommendations
 
 ---
 
-######_octopod • \~Kiwi\~v2 • KillerTele • ScottyWired • Scratch. • TheJoker • thelurker1234 • sloppy_joes • J!NX • Alice3173_
+<div id='credits'>
+_octopod • \~Kiwi\~v2 • KillerTele • ScottyWired • Scratch. • TheJoker • thelurker1234 • sloppy_joes • J!NX • Alice3173_
+</div>
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html

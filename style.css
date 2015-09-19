@@ -8,6 +8,9 @@ body {
   font-size: 14px;
   line-height: 2;
 }
+#credits {
+  text-align: center;
+}
 #TOC {
   position: fixed;
   top: 0;
