@@ -98,6 +98,41 @@ __Bold__ -- "essential" recommendations
 - [__PuTTY__][putty]
 - [KiTTY][kitty] -- a windows-only fork of PuTTY that adds many improvements
 
+### Emulation
+
+##### Gameboy Advance (GBA) / Gameboy Color (GBC)
+
+- __VisualBoyAdvance__
+
+##### Nintendo 64 (N64)
+
+- __Project64__
+
+##### Nintendo DS (NDS)
+
+- __Desmume__
+
+##### Nintendo Wii (WII) / Nintendo Gamecube (GCN)
+
+- __Dolphin Emulator__
+
+##### Sony Playstation 2 (PS2)
+
+- __PCSX2__
+
+##### Sony Playstation Portable (PSP)
+
+- __PPSSPP__
+
+##### Sony Playstation (PSX)
+
+- __ePSXe__
+
+##### Super Nintendo (SNES)
+
+- __SNES9x__
+- ZSNES
+
 ### File Compression
 
 - [__7zip__][7zip]
