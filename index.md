@@ -58,6 +58,11 @@ __Bold__ -- "essential" recommendations
 
 - [__Audacity__][audacity]
 
+##### Music Production
+
+- [_FL Studio_][flstudio]
+
+
 ### Drivers & Miscellaneous
 
 ##### Adobe Flash
@@ -191,10 +196,6 @@ __Bold__ -- "essential" recommendations
 - [Miro Video Converter][mirovideoconverter]
 - [FormatFactory][formatfactory]
 
-### Music Production
-
-- [_FL Studio_][flstudio]
-
 ### Office
 
 - [__LibreOffice__][libreoffice]
@@ -222,9 +223,10 @@ __Bold__ -- "essential" recommendations
 
 - [Space Sniffer][spacesniffer] -- visualizes locations on your hard drive as boxes depending on size
 
-##### Productivity Helpers
+### Productivity
 
 - [clover][clover] -- adds tabs to your file explorer
+
 - [WinDivvy] -- precise window tiling
 
 ### Programming
