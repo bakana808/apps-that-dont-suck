@@ -265,17 +265,6 @@ __Bold__ -- "essential" recommendations
 
 - [CDisplay Ex][cdisplayex]
 
-### Screen Capture
-
-##### Gaming
-
-- [___Dxtory___][dxtory]
-- [_Fraps_][fraps]
-
-##### GIF
-
-- [GifCam][gifcam]
-
 ### Social
 
 - [Skype][skype]
@@ -287,6 +276,17 @@ __Bold__ -- "essential" recommendations
 - UTorrent
 - BitTorrent
 - QBitTorrent
+
+### Video Capture
+
+##### Screen
+
+- [GifCam][gifcam] -- records your screen and outputs it as a GIF
+
+##### Gaming
+
+- [___Dxtory___][dxtory]
+- [_Fraps_][fraps]
 
 ---
 
