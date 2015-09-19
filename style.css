@@ -22,6 +22,10 @@ body {
 #TOC li a {
   display: block;
 }
+#TOC > ul > li > a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
 h1,
 h2,
 h3,
