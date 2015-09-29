@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: white;
   color: #242628;
   font-family: "Open Sans", freesans, sans-serif;
   font-size: 14px;
@@ -150,16 +150,13 @@ h6 {
   float: right;
   font-weight: normal;
   font-style: normal;
-  background: white;
-  box-shadow: 0px 0px 10px #dddddd;
-  z-index: 0;
 }
 .app-list h2:first-child {
   margin-top: 0px;
 }
 .label-container {
   list-style: none;
-  background-color: #eeeeee;
+  background-color: #fafafa;
   padding: 10px 20px;
   border-radius: 6px;
 }
