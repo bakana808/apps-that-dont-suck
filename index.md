@@ -1,6 +1,23 @@
 
-<div id='title'> Useful and Essential Programs and Websites </div>
+<div class="navbar">
+<div class="navbar-wrapper">
+<div class="navbar-wrapper__title">
+<span>Useful & Recommended Programs & Websites</span>
+</div>
+</div>
+</div>
 
+<div class="top">
+<div class="top-wrapper">
+
+<div class="top-wrapper__legend">
+- [__recommanded__](#)
+- [free](#)
+- [___recommended & paid___](#)
+- [_paid_](#)
+</div>
+
+<div class="top-wrapper__content">
 As someone who owns both a desktop and laptop with Windows 8, I want my programs to be consistent between the two. This might take some planning so I'd might as well turn it into a thread or something for other people to use.
 
 Hopefully it'll be useful for you guys somehow.
@@ -26,17 +43,52 @@ _Maybe I'll make a banner or some shit, I don't know. The formatting really does
 _Also I remember there being another thread with this long list of useful websites, if someone could find that it would be nice, so I can link it or something._
 
 _Of course, the list isn't perfect, so I'd like some second opinions so I can improve it in the future._
+</div>
+</div>
+</div>
 
----
+<div class="container">
+<!-- Table of Contents -->
+<div id="sidenav">
+- [Programs](#programs)
+	- [Anti-Virus & Firewall](#anti-virus-firewall)
+	- [Audio](#audio)
+	- [Drivers & Miscellaneous](#drivers-miscellaneous)
+	- [Emulation](#emulation)
+	- [File Compression](#file-compression)
+	- [File Downloading](#file-downloading)
+	- [File Sharing](#file-sharing)
+	- [Image](#image)
+	- [Internet & Network](#internet-network)
+	- [Joypad](#joypad)
+	- [Live-Streaming](#live-streaming)
+	- [Looks & Themes](#looks-themes)
+	- [Media](#media)
+	- [Office](#office)
+	- [Organization](#organization)
+	- [Productivity](#productivity)
+	- [Programming](#programming)
+	- [Readers](#readers)
+	- [Social](#social)
+	- [Torrenting](#torrenting)
+	- [Video Capture](#video-capture)
+- [Websites](#websites)
+	- [Games](#games)
+	- [Internet](#internet)
+	- [Typing Tests](#typing-tests)
+	- [Flash Database](#flash-database)
+	- [Programming](#programming)
+	- [Live-Streaming](#live-streaming)
+	- [Resources](#resources)
+</div>
+<div class="content">
+<div class="app-list">
 
 ## Programs
 
-_Italics_ -- paid software\
-__Bold__ -- "essential" recommendations
-
 ### Anti-Virus & Firewall
 
-- [__Comodo Internet Security__][comodo]
+- [Comodo Internet Security][comodo]
 - [Avast][avast]
 - [Malwarebytes][malwarebytes]
 - [Kasperky][kasperky]
@@ -50,6 +102,8 @@ __Bold__ -- "essential" recommendations
 - [Nightingale][nightingale]
 - [Clementine][clementine]
 - [MusicBee][musicbee]
+
+<!-- -->
 
 - [_Virtual Audio Cable_][virtual audio cable]
 - [VB-Audio Virtual Cable][vb audio virtual cable]
@@ -146,6 +200,7 @@ __Bold__ -- "essential" recommendations
 ##### Screenshots
 
 - [Puush][puush] -- upload and share files and screenshots easily with keyboard shortcuts
+
 - [__ShareX__][sharex] -- open-source alternative to Puush
 
 ##### File Syncing
@@ -204,6 +259,12 @@ __Bold__ -- "essential" recommendations
 - [__f.lux__][flux] -- colors your screen depending on time of day
 
 - [Classic Shell][classicshell] -- restore "classic" windows features
+
+##### Docks
+
+These programs add a program dock similar to OSX.
+
+- [RocketDock][rocketdock]
 
 ##### Widgets
 
@@ -404,6 +465,12 @@ __Bold__ -- "essential" recommendations
 <div id='credits'>
 _octopod • \~Kiwi\~v2 • KillerTele • ScottyWired • Scratch. • TheJoker • thelurker1234 • sloppy_joes • J!NX • Alice3173_
 </div>
+<!-- app-list -->
+</div>
+<!-- content -->
+</div>
+<!-- container -->
+</div>
 
 [java7jre]: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
 [java7jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -497,3 +564,4 @@ _octopod • \~Kiwi\~v2 • KillerTele • ScottyWired • Scratch. • TheJoker
 [gitlab]: https://gitlab.com/
 [twitch]: http://www.twitch.tv/
 [hitbox]: http://www.hitbox.tv/
+[rocketdock]: http://rocketdock.com/

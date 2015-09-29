@@ -1,39 +1,154 @@
-@bg: #FFFFFF;
+@bg: #fafafa;
 @color_text: #242628;
-@color_link: #4EB6AC;
+
+@color_link: #4EB68E;
+
+@color_link--normal: #4EB653;
+@color_link--ess: #b66a4e;
+@color_link--esspaid: #8c4eb6;
+@color_link--paid: #B5B5B5;
+
+@navbar-height: 60px;
 
 body
 {
+	margin: 0; padding: 0;
 	background-color: @bg;
-	padding: 40px;
-	position: relative;
-	margin-left: 240px;
 	color: @color_text;
+
 	font-family: "Open Sans", freesans, sans-serif;
 	font-size: 14px;
 	line-height: 2;
+
+	& > p {
+		position: fixed;
+	}
+
+	li a, a
+	{
+		color: lighten(@color_text, 20%);
+
+		&:link, &:visited
+		{
+			text-decoration: none;
+		}
+
+		&:hover, &:active
+		{
+			text-decoration: underline;
+		}
+	}
 }
 
-// Credits List
+// Headers
 
-#credits
-{
+h1, #title {
+	font-size: 3.5em;
+	line-height: 1.4;
 	text-align: center;
 }
+h2 { font-size: 3em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
 
-// Table of Contents
+/*
+ * Table of Contents
+ */
 
-#TOC
-{
-	position: fixed;
-	top: 0; left: 0;
-	padding-left: 0px;
+.navbar {
+	top: 0; position: fixed;
 
-	height: 100%, width: 200px;
-	padding-right: 25px;
+	width: 100%;
+	height: @navbar-height; line-height: @navbar-height;
+	background: @color_text;
+	z-index: 2;
+}
+
+.navbar-wrapper {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.navbar-wrapper__title {
+
+	width: 100%; height: inherit;
+	margin: 0px auto;
+
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+	p {
+		margin: 0px; padding: 0px;
+		text-align: center;
+	}
+	p span {
+		vertical-align: middle;
+	}
+}
+
+.top {
+	position: relative;
+	margin-top: @navbar-height;
+	height: 50px;
+	background: @color_text;
+	z-index: 1;
+}
+
+.top-wrapper {
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.top-wrapper__content {
+	display: none;
+}
+
+.top-wrapper__legend {
+	height: auto;
+	width: 100%;
+	margin-top: 0px auto;
+	text-align: center;
+	overflow: hidden;
+	vertical-align: middle;
+	display: inline-block;
 
 	ul {
+		padding: 0px; margin: 0px;
 		list-style: none;
+	}
+}
+
+.container {
+	width: 800px;
+	margin: 0px auto;
+}
+
+#sidenav
+{
+	display: block;
+	position: fixed;
+	padding-top: 40px;
+	padding-left: 40px;
+	text-align: left;
+	float: right;
+	transform: translateX(800px);
+	height: 100%; width: 200px;
+	font-size: 0.9em;
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+	ul li ul {
+		padding-left: 20px;
 	}
 
 	li a {
@@ -43,9 +158,101 @@ body
 	& > ul > li > a
 	{
 		font-weight: bold;
-		font-size: 1.2em;
+		font-size: 1.1em;
+	}
+}
+
+.sidenav__fixed {
+	position: fixed;
+}
+
+// the main program / website list
+// let bold mean "recommended" and italics mean "paid"
+// bold and italics should be a separate color
+.app-list {
+	width: auto;
+	padding: 20px 40px;
+	float: right;
+
+
+	h2:first-child {
+		margin-top: 0px;
 	}
 
+	font-weight: normal;
+	font-style: normal;
+	background: white;
+	box-shadow: 0px 0px 10px #dddddd;
+	z-index: 0;
+}
+
+.label-container {
+	list-style: none;
+	background-color: #eeeeee;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+
+.label {
+	height: auto;
+	width: auto;
+	margin: 3px 0px;
+	color: lighten(@color_text, 40%);
+
+	strong {
+		font-weight: inherit;
+	}
+
+	em {
+		font-style: normal;
+	}
+
+	a {
+		padding: 2px 10px;
+		color: #ffffff;
+		background: #666666;
+		border-radius: 3px;
+		font-weight: bold;
+	}
+
+	p {
+		margin: 0px;
+	}
+
+	ul {
+		background: none;
+		li {
+			background: none;
+			font-weight: normal;
+		}
+	}
+}
+
+.label__inline {
+	display: inline-block;
+}
+
+.label__ess a {
+	background-color: @color_link--ess;
+}
+
+.label__paid a {
+	background-color: @color_link--paid;
+}
+
+.label__esspaid a {
+	background-color: @color_link--esspaid;
+}
+
+.label__free a {
+	background-color: @color_link--normal;
+}
+
+// Credits List
+
+#credits
+{
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6, #title
@@ -59,40 +266,6 @@ p
 
 }
 
-// Headers
-
-h1, #title
-{
-	font-size: 3.5em;
-	line-height: 1.4;
-	text-align: center;
-}
-
-h2
-{
-	font-size: 3em;
-}
-
-h3
-{
-	font-size: 2em;
-}
-
-h4
-{
-	font-size: 1.5em;
-}
-
-h5
-{
-	font-size: 1.2em;
-}
-
-h6
-{
-	font-size: 1em;
-}
-
 // Horizontal Rules
 
 hr
@@ -102,21 +275,4 @@ hr
     margin: 16px 0;
     background-color: #e7e7e7;
     border: 0 none;
-}
-
-// Links
-
-li a, a
-{
-	color: @color_link;
-
-	&:link, &:visited
-	{
-		text-decoration: none;
-	}
-
-	&:hover, &:active
-	{
-		text-decoration: underline;
-	}
 }

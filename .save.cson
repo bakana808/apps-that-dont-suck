@@ -1,0 +1,3 @@
+"index.md": "pandoc -5 -H script.html -S -c style.css index.md -o index.html"
+#"script.js": "pandoc -5 -H script.js -c style.css index.md -o index.html"
+"style.less": "lessc style.less style.css"
