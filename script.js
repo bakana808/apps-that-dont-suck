@@ -6,6 +6,10 @@
     return $("#sidenav").css("top", Math.max(40, 100 - $(this).scrollTop()));
   });
 
+  $("#sidenav ul>li>a").click(function() {
+    return $("#sidenav ul>li>ul").addClass('selected');
+  });
+
   markLabels = function(collection, inline) {
     var entries, i, len, li, results, suffix;
     entries = collection.getElementsByTagName("li");
@@ -30,8 +34,8 @@
 
   window.onload = function() {
     var applist, entries, i, legend, len, results, ul;
-    applist = document.getElementsByClassName("app-list");
-    legend = document.getElementsByClassName("top-wrapper__legend");
+    applist = $(".app-container");
+    legend = $(".top-wrapper__legend");
     markLabels(applist[0], false);
     markLabels(legend[0], true);
     entries = applist[0].getElementsByTagName("ul");

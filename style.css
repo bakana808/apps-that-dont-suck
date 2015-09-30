@@ -114,7 +114,7 @@ h6 {
   width: 800px;
   margin: 0px auto;
 }
-#sidenav {
+#toc-container {
   display: block;
   position: fixed;
   padding-top: 40px;
@@ -124,35 +124,38 @@ h6 {
   transform: translateX(800px);
   height: 100%;
   width: 200px;
-  font-size: 0.9em;
 }
-#sidenav ul {
+#toc-container ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-#sidenav ul li ul {
+#toc-container ul > li > ul {
+  display: none;
   padding-left: 20px;
 }
-#sidenav li a {
+#toc-container ul > li:hover > ul,
+#toc-container ul > li:selected > ul {
   display: block;
 }
-#sidenav > ul > li > a {
+#toc-container > ul > li > a {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .sidenav__fixed {
   position: fixed;
 }
-.app-list {
+.app-container {
   width: auto;
   padding: 20px 40px;
-  float: right;
-  font-weight: normal;
-  font-style: normal;
 }
-.app-list h2:first-child {
-  margin-top: 0px;
+.app-container h1,
+.app-container h2,
+.app-container h3,
+.app-container h4,
+.app-container h5,
+.app-container h6 {
+  text-align: center;
 }
 .label-container {
   list-style: none;

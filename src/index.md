@@ -49,7 +49,7 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 
 <div class="container">
 <!-- Table of Contents -->
-<div id="sidenav">
+<div id="toc-container">
 - [Programs](#programs)
 	- [Anti-Virus & Firewall](#anti-virus-firewall)
 	- [Audio](#audio)
@@ -82,7 +82,7 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 	- [Resources](#resources)
 </div>
 <div class="content">
-<div class="app-list">
+<div class="app-container">
 
 ## Programs
 

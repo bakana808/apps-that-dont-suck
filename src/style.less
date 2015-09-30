@@ -129,7 +129,7 @@ h6 { font-size: 1em; }
 	margin: 0px auto;
 }
 
-#sidenav
+#toc-container
 {
 	display: block;
 	position: fixed;
@@ -139,7 +139,6 @@ h6 { font-size: 1em; }
 	float: right;
 	transform: translateX(800px);
 	height: 100%; width: 200px;
-	font-size: 0.9em;
 
 	ul {
 		margin: 0px;
@@ -147,18 +146,20 @@ h6 { font-size: 1em; }
 		list-style: none;
 	}
 
-	ul li ul {
+	ul > li > ul {
+		display: none;
 		padding-left: 20px;
 	}
 
-	li a {
+	ul > li:hover > ul,
+	ul > li:selected > ul {
 		display: block;
 	}
 
 	& > ul > li > a
 	{
 		font-weight: bold;
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 }
 
@@ -169,21 +170,13 @@ h6 { font-size: 1em; }
 // the main program / website list
 // let bold mean "recommended" and italics mean "paid"
 // bold and italics should be a separate color
-.app-list {
+.app-container {
 	width: auto;
 	padding: 20px 40px;
-	float: right;
 
-
-	h2:first-child {
-		margin-top: 0px;
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
 	}
-
-	font-weight: normal;
-	font-style: normal;
-	//background: white;
-	//box-shadow: 0px 0px 10px #dddddd;
-	//z-index: 0;
 }
 
 .label-container {
