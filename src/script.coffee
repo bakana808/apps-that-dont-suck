@@ -1,9 +1,6 @@
 
 $(window).scroll () ->
-    $("#sidenav").css("top", Math.max(40, 100 - $(this).scrollTop()))
-
-$("#sidenav ul>li>a").click () ->
-	$("#sidenav ul>li>ul").addClass('selected')
+    $("#toc-container").css("top", Math.max(40, 100 - $(this).scrollTop()))
 
 markLabels = (collection, inline) ->
 	entries = collection.getElementsByTagName("li");
@@ -22,6 +19,10 @@ markLabels = (collection, inline) ->
 			li.className = "label label__free" + suffix
 
 window.onload = () ->
+
+	$("#toc-container ul > li").click () ->
+		$("#toc-container ul > li > ul").toggleClass('selected')
+
 	applist = $(".app-container");
 	legend = $(".top-wrapper__legend");
 

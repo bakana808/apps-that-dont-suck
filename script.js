@@ -3,11 +3,7 @@
   var markLabels;
 
   $(window).scroll(function() {
-    return $("#sidenav").css("top", Math.max(40, 100 - $(this).scrollTop()));
-  });
-
-  $("#sidenav ul>li>a").click(function() {
-    return $("#sidenav ul>li>ul").addClass('selected');
+    return $("#toc-container").css("top", Math.max(40, 100 - $(this).scrollTop()));
   });
 
   markLabels = function(collection, inline) {
@@ -34,6 +30,9 @@
 
   window.onload = function() {
     var applist, entries, i, legend, len, results, ul;
+    $("#toc-container ul > li").click(function() {
+      return $("#toc-container ul > li > ul").toggleClass('selected');
+    });
     applist = $(".app-container");
     legend = $(".top-wrapper__legend");
     markLabels(applist[0], false);

@@ -124,11 +124,16 @@ h6 {
   transform: translateX(800px);
   height: 100%;
   width: 200px;
+  transition-duration: 10ms;
 }
 #toc-container ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+#toc-container .selected {
+  display: block;
+  opacity: 100;
 }
 #toc-container ul > li > ul {
   display: none;

@@ -139,11 +139,16 @@ h6 { font-size: 1em; }
 	float: right;
 	transform: translateX(800px);
 	height: 100%; width: 200px;
-
+	transition-duration: 10ms;
 	ul {
 		margin: 0px;
 		padding: 0px;
 		list-style: none;
+	}
+
+	.selected {
+		display: block;
+		opacity: 100;
 	}
 
 	ul > li > ul {
