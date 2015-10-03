@@ -50,6 +50,7 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 <div class="container">
 <!-- Table of Contents -->
 <div id="toc-container">
+<div class="programs">
 - [Programs](#programs)
 	- [Anti-Virus & Firewall](#anti-virus-firewall)
 	- [Audio](#audio)
@@ -72,6 +73,8 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 	- [Social](#social)
 	- [Torrenting](#torrenting)
 	- [Video Capture](#video-capture)
+</div>
+<div class="websites">
 - [Websites](#websites)
 	- [Games](#games)
 	- [Internet](#internet)
@@ -80,6 +83,7 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 	- [Programming](#programming)
 	- [Live-Streaming](#live-streaming)
 	- [Resources](#resources)
+</div>
 </div>
 <div class="content">
 <div class="app-container">
@@ -93,6 +97,8 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 - [Malwarebytes][malwarebytes]
 - [Kasperky][kasperky]
 - [Hitman Pro][hitmanpro]
+
+<div class="audio">
 
 ### Audio
 
@@ -116,6 +122,7 @@ _Of course, the list isn't perfect, so I'd like some second opinions so I can im
 
 - [_FL Studio_][flstudio]
 
+</div> <!-- end of audio class -->
 
 ### Drivers & Miscellaneous
 

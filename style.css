@@ -24,7 +24,7 @@ body li a:hover,
 body a:hover,
 body li a:active,
 body a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 h1,
 #title {
@@ -125,6 +125,10 @@ h6 {
   height: 100%;
   width: 200px;
   transition-duration: 10ms;
+  /* Firefox < 16 */
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
 }
 #toc-container ul {
   margin: 0px;
@@ -139,12 +143,60 @@ h6 {
   display: none;
   padding-left: 20px;
 }
-#toc-container ul > li:hover > ul,
-#toc-container ul > li:selected > ul {
+#toc-container ul:hover > li > ul {
   display: block;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 #toc-container > ul > li > a {
-  font-weight: bold;
+  font-weight: bold: ;
   font-size: 1.2em;
 }
 .sidenav__fixed {
