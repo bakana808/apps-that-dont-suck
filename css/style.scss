@@ -157,6 +157,14 @@ hr
 	margin-right: auto;
 	margin-left: 10px;
 	width: $page-content-width;
+
+	h1:before, h2:before, h3:before {
+		content: " ";
+		display: block;
+	    height: $fixed-height + 20px;
+		margin-top: -($fixed-height + 20px);
+		visibility: hidden;
+	}
 }
 
 .page-side {
