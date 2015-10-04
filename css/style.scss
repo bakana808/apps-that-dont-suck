@@ -16,7 +16,10 @@ $card_shadow_color: #f4f4f4;
 $title-height: 60px;
 $fixed-height: 100px;
 $header-width: 1000px;
+
 $page-width: 1000px;
+$page-side-width: 320px;
+$page-content-width: $page-width - $page-side-width - 20px;
 
 body
 {
@@ -49,6 +52,41 @@ body
 		{
 			text-decoration: none;
 		}
+	}
+}
+
+hr
+{
+	height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: $card_shadow_color;
+    border: 0 none;
+}
+
+.card {
+	background-color: white;
+	padding: 20px 40px;
+	margin: 20px 0px;
+	border-radius: 6px;
+	box-shadow: 0 2px $card_shadow_color;
+	border: 2px solid $card_shadow_color;
+
+	*:first-child {
+		margin-top: 0px;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	h4, h5, h6 {
+		color: lighten($color_text, 30%);
 	}
 }
 
@@ -118,7 +156,7 @@ body
 	display: inline-block;
 	margin-right: auto;
 	margin-left: 10px;
-	width: 660px;
+	width: $page-content-width;
 }
 
 .page-side {
@@ -127,13 +165,46 @@ body
 	display: inline-block;
 	margin-left: auto;
 	margin-right: 10px;
-	width: 320px;
+	width: $page-side-width;
+}
+
+.page-side .page-side__links
+{
+	text-align: center;
+
+	li a, a
+	{
+		color: $color_text;
+		transition: color 0.5s ease;
+
+		&:link, &:visited
+		{
+			text-decoration: none;
+		}
+
+		&:hover, &:active
+		{
+			text-decoration: none;
+			color: lighten($color_text, 20%);
+		}
+	}
+}
+.page-side .page-side__credits
+{
+	@extend .card;
+
+	ul {
+		display: table;
+		margin: 0 auto;
+		text-align: center;
+		list-style: none;
+		padding: 0;
+	}
 }
 .page-side .page-side__toc
 {
 	@extend .card;
 
-	padding-top: 40px;
 	text-align: left;
 
 	height: 100%;
@@ -223,16 +294,6 @@ body
 	    from { opacity: 0; }
 	    to   { opacity: 1; }
 	}
-
-}
-
-.card {
-	background-color: white;
-	padding: 10px 20px;
-	margin: 20px 0px;
-	border-radius: 6px;
-	box-shadow: 0 2px $card_shadow_color;
-	border: 2px solid $card_shadow_color;
 }
 
 // the main program / website list
@@ -257,25 +318,21 @@ body
 
 .label-group {
 	@extend .card;
-	h3 {
-		text-align: center;
-	}
-}
+	padding-bottom: 0;
 
-.label-subgroup {
-	margin: 20px 20px;
-	padding-top: 20px;
-	border-top: 2px solid $card_shadow_color;
 	ul {
 		list-style: none;
 		margin: 0; padding: 0;
 	}
-
-	h1, h2, h3, h4, h5, h6 {
-		margin: 0;
-		margin-bottom: 10px;
-		color: lighten($color_text, 40%);
+	> ul {
+		padding-bottom: 20px;
 	}
+}
+
+.label-subgroup {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 2px solid $card_shadow_color;
 }
 
 li.label {
@@ -317,21 +374,4 @@ li.label {
 	&.label__paid.label__rec { span, div, a {
 		background: $color_link--esspaid;
 	}}
-}
-// Credits List
-
-#credits
-{
-	text-align: center;
-}
-
-// Horizontal Rules
-
-hr
-{
-	height: 1px;
-    padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
 }

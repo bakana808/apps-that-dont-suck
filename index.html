@@ -11,18 +11,27 @@
 	{% include website-list.md %}
 {% endcapture %}
 
+{% capture contributors %}
+	{% include contributors.md %}
+{% endcapture %}
+
 <div class="page"><div class="wrapped">
 	<div class="page-side">
 		<div class="page-side__toc">
 			{{ toc | markdownify }}
 		</div>
+		<div class="page-side__credits">
+			{{ contributors | markdownify }}
+		</div>
+		<div class="page-side__links">
+			<a href="https://github.com/theoctopod/essential-programs">
+				<span class="mega-octicon octicon-mark-github"/>
+			</a>
+		</div>
 	</div>
 	<div class="page-content">
 		<div class="page-content__list">
 			{{ list | markdownify }}
-		</div>
-		<div id="page-content__credits">
-			{% include contributors.md %}
 		</div>
 	</div>
 </div></div>

@@ -93,6 +93,8 @@
 
 </div><!-- end of group -->
 
+<div class="label-group">
+
 ### Drivers & Miscellaneous
 
 ##### Adobe Flash
@@ -127,6 +129,10 @@
 
 - {:rcfr}[PuTTY][putty]
 - {:free}[KiTTY][kitty] a windows-only fork of PuTTY that adds many improvements
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Emulation
 
@@ -163,13 +169,25 @@
 - {:rcfr}[SNES9x](#)
 - {:free}[ZSNES](#)
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### File Compression
 
 - {:rcfr}[7zip][7zip]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### File Downloading
 
 - {:rcfr}[youtube-dl][youtube-dl] a set of commandline tools to download media directly off youtube (and other websites)
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### File Sharing
 
@@ -182,6 +200,10 @@
 
 - {:rcfr}[Google Drive][google drive]
 - {:free}[Dropbox][dropbox]
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Image
 
@@ -201,6 +223,10 @@
 - {:rcpd}[Adobe Illustrator][adobe illustrator]
 - {:free}[Inkscape][inkscape]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Internet & Network
 
 - {:free}[Fiddler][fiddler] a web debugging proxy
@@ -213,6 +239,10 @@
 - {:free}[Vivaldi][vivaldi]
 - {:free}[Pale Moon][palemoon]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Joypad
 
 ##### Input Mappers
@@ -224,10 +254,18 @@
 
 - {:rcfr}[DS4Windows][ds4windows] allows you to use your ps4 controller as an xbox controller via usb or bluetooth
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Live-Streaming
 
 - {:rcfr}[Open Broadcaster Software][obs]
 - {:paid}[XSplit][xsplit]
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Looks & Themes
 
@@ -249,6 +287,10 @@ These programs add a program dock similar to OSX.
 
 - {:free}[UXStyle][uxstyle] enables complete theming of your windows system, down to UI elements
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Media
 
 ##### Players
@@ -267,11 +309,19 @@ These programs add a program dock similar to OSX.
 - {:free}[Miro Video Converter][mirovideoconverter]
 - {:free}[FormatFactory][formatfactory]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Office
 
 - {:rcfr}[LibreOffice][libreoffice]
 - {:free}[OpenOffice][openoffice]
 - {:paid}[Microsoft Office][microsoft office]
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Organization
 
@@ -294,11 +344,19 @@ These programs add a program dock similar to OSX.
 
 - {:free}[Space Sniffer][spacesniffer] visualizes locations on your hard drive as boxes depending on size
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Productivity
 
 - {:free}[clover][clover] adds tabs to your file explorer
 
 - {:free}[WinDivvy](#) precise window tiling
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Programming
 
@@ -327,6 +385,10 @@ These programs add a program dock similar to OSX.
 - {:free}[Notepad++][notepad++]
 - {:paid}[Sublime Text][sublime text]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Readers
 
 ##### PDF
@@ -338,10 +400,18 @@ These programs add a program dock similar to OSX.
 
 - {:free}[CDisplay Ex][cdisplayex]
 
+</div><!-- end of group -->
+
+<div class="label-group">
+
 ### Social
 
 - {:free}[Skype][skype]
 - {:free}[HexChat][hexchat] an open-source IRC client
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Torrenting
 
@@ -349,6 +419,10 @@ These programs add a program dock similar to OSX.
 - {:free}[UTorrent](#)
 - {:free}[BitTorrent](#)
 - {:free}[QBitTorrent](#)
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Video Capture
 
