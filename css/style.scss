@@ -18,7 +18,7 @@ $fixed-height: 100px;
 $header-width: 1000px;
 
 $page-width: 1000px;
-$page-side-width: 320px;
+$page-side-width: 300px;
 $page-content-width: $page-width - $page-side-width - 20px;
 
 body
@@ -206,9 +206,13 @@ hr
 	@extend .card;
 
 	ul {
+		font-family: Tahoma,Helvetica,Arial,Verdana;
+		color: #A06000;
+		font-weight: bold;
+
 		display: table;
 		margin: 0 auto;
-		text-align: center;
+		//text-align: center;
 		list-style: none;
 		padding: 0;
 	}
