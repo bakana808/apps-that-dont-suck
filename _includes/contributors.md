@@ -4,7 +4,7 @@
 ---
 
 - octopod
-- \~Kiwi\~v2
+- ~Kiwi~v2
 - KillerTele
 - ScottyWired
 - Scratch.
@@ -13,3 +13,4 @@
 - sloppy_joes
 - J!NX
 - Alice3173
+- SGTNAPALM

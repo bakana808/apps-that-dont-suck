@@ -136,13 +136,20 @@
 
 ### Emulation
 
+##### Multi-System
+
+- {:free}[mednafen](#)
+- {:free}[retroarch](#)
+
 ##### Gameboy Advance (GBA) / Gameboy Color (GBC)
 
-- {:rcfr}[VisualBoyAdvance](#)
+- {:free}[vba-m](#)
+- {:free}[VisualBoyAdvance](#)
 
 ##### Nintendo 64 (N64)
 
-- {:rcfr}[Project64](#)
+- {:free}[Project64](#)
+- {:free}[Mupen64Plus](#)
 
 ##### Nintendo DS (NDS)
 
@@ -162,7 +169,8 @@
 
 ##### Sony Playstation (PSX)
 
-- {:rcfr}[ePSXe](#)
+- {:free}[ePSXe](#)
+- {:free}[pcsx-r](#)
 
 ##### Super Nintendo (SNES)
 
@@ -212,6 +220,7 @@
 - {:free}[XnView][xnview]
 - {:free}[Honeyview][honeyview]
 - {:free}[HandBrake][handbrake]
+- {:free}[irfanview](#)
 
 ##### Raster Editors
 
@@ -394,6 +403,7 @@ These programs add a program dock similar to OSX.
 ##### PDF
 
 - {:rcfr}[Adobe Reader][adobe reader]
+- {:free}[sumatrapdf](#)
 - {:paid}[Adobe Reader XI][adobe reader xi]
 
 ##### Comic Book
