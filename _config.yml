@@ -1,0 +1,9 @@
+url: 'http://theoctopod.github.io/essential-programs/'
+exclude:
+    - 'src/'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+defaults:
+    -
+        values:
+            layout: "default"

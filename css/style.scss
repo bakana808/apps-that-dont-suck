@@ -1,0 +1,332 @@
+---
+---
+
+$bg: #fafafa;
+$color_text: #242628;
+
+$color_link: #4EB68E;
+
+$color_link--normal: #4EB653;
+$color_link--ess: #b66a4e;
+$color_link--esspaid: #8c4eb6;
+$color_link--paid: #7d7d7d;
+
+$title-height: 60px;
+$fixed-height: 100px;
+$header-width: 1000px;
+$page-width: 1000px;
+
+body
+{
+	margin: 0; padding: 0;
+	background-color: $bg;
+	color: $color_text;
+	-webkit-font-smoothing: antialiased;
+
+	font-family: "Open Sans", freesans, sans-serif;
+	font-size: 14px;
+	line-height: 2;
+
+	h1, #title {
+		font-size: 3em;
+		line-height: 1.4;
+		text-align: center;
+	}
+	h2 { font-size: 2.5em; }
+	h3 { font-size: 1.8em; }
+	h4 { font-size: 1.5em; }
+	h5 { font-size: 1.2em; }
+	h6 { font-size: 1em; }
+
+	& > p {
+		position: fixed;
+	}
+
+	a {
+		&:link, &:visited, &:hover, &:active
+		{
+			text-decoration: none;
+		}
+	}
+}
+
+/*
+ * Table of Contents
+ */
+.header {
+	margin-top: $fixed-height;
+	position: normal;
+
+	width: 100%;
+	height: $fixed-height;
+	background: $color_text;
+	z-index: 2;
+
+	&.fixed {
+		top: 0px;
+		margin-top: 0px;
+		position: fixed;
+	}
+
+	& .wrapped {
+		width: $header-width;
+		height: inherit;
+		margin: 0px auto;
+	}
+
+	&__title {
+		color: #ffffff;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		line-height: $title-height;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	&__legend {
+		width: 100%;
+		margin-top: 0px auto;
+		text-align: center;
+		vertical-align: middle;
+		display: inline-block;
+
+		ul {
+			padding: 0px; margin: 0px;
+			list-style: none;
+		}
+	}
+}
+
+.page {
+	display: normal;
+	overflow: auto;
+	margin-top: $fixed-height;
+	min-height: 100%; height: 100%;
+
+	& .wrapped {
+		overflow: auto;
+		width: $page-width;
+		margin: 0px auto;
+	}
+}
+
+.page-content {
+	float: right;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: 10px;
+	width: 660px;
+}
+
+.page-side {
+	position: fixed;
+	float: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: 10px;
+	width: 320px;
+}
+.page-side .page-side__toc
+{
+	@extend .card;
+
+	padding-top: 40px;
+	text-align: left;
+
+	height: 100%;
+	transition-duration: 10ms;
+
+	& > ul > li > span
+	{
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	li a, a
+	{
+		color: $color_text;
+		transition: color 20ms ease;
+
+		&:link, &:visited
+		{
+			text-decoration: none;
+		}
+
+		&:hover, &:active
+		{
+			text-decoration: none;
+			color: lighten($color_text, 20%);
+		}
+	}
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+	.selected {
+		display: block;
+		opacity: 100;
+	}
+
+	ul > li > ul {
+		display: none;
+		padding-left: 20px;
+	}
+
+	ul:hover > li > ul,
+	.programs.active > ul > li > ul,
+	.websites.active > ul > li > ul
+	{
+		display: block;
+		-webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+	}
+
+	@keyframes fadein
+	{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+	/* Firefox < 16 */
+	@-moz-keyframes fadein
+	{
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Safari, Chrome and Opera > 12.1 */
+	@-webkit-keyframes fadein
+	{
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Internet Explorer */
+	@-ms-keyframes fadein
+	{
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Opera < 12.1 */
+	@-o-keyframes fadein
+	{
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+}
+
+.card {
+	background-color: white;
+	padding: 10px 20px;
+	margin: 20px 0px;
+	border-radius: 6px;
+	box-shadow: 0 2px #f4f4f4;
+}
+
+// the main program / website list
+// let bold mean "recommended" and italics mean "paid"
+// bold and italics should be a separate color
+.page-content__list {
+	width: auto;
+	padding: 20px 0px;
+
+	> h1 {
+		text-align: center;
+	}
+
+	> h1, > h2, > h3, > h4, > h5, > h6 {
+		@extend .card;
+	}
+
+	*:first-child {
+		margin-top: 0;
+	}
+}
+
+.label-group {
+	> h1, > h2, > h3, > h4, > h5, > h6 {
+		@extend .card;
+	}
+}
+
+.label-subgroup {
+	@extend .card;
+	margin: 20px 20px;
+	ul {
+		list-style: none;
+		margin: 0; padding: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		margin-bottom: 10px;
+		color: lighten($color_text, 40%);
+	}
+}
+
+li.label {
+	height: auto; width: auto;
+	margin-left: 10px;
+	//margin-bottom: 5px;
+	margin-top: 5px;
+
+	p { margin: 0px; }
+	strong { font-weight: inherit; }
+	em { font-style: normal; }
+
+	span, div, a {
+		margin: 3px 0px;
+		padding: 2px 10px;
+		background: #333333;
+		color: #ffffff;
+		border-radius: 3px;
+		font-weight: bold;
+	}
+
+	&.label__inline {
+		margin: 0;
+		display: inline-block;
+	}
+
+	&.label__free { span, div, a {
+		background: $color_link--normal;
+	}}
+
+	&.label__rec { span, div, a {
+		background: $color_link--ess;
+	}}
+
+	&.label__paid { span, div, a {
+		background: $color_link--paid;
+	}}
+
+	&.label__paid.label__rec { span, div, a {
+		background: $color_link--esspaid;
+	}}
+}
+// Credits List
+
+#credits
+{
+	text-align: center;
+}
+
+// Horizontal Rules
+
+hr
+{
+	height: 1px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+}
