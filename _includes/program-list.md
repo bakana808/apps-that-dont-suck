@@ -1,18 +1,18 @@
 {% if include.toc != null %}
 
 - <span>Programs</span>
-	- [Anti-Virus & Firewall](#anti-virus-firewall)
+	- [Anti-Virus & Firewall](#anti-virus--firewall)
 	- [Audio](#audio)
-	- [Drivers & Miscellaneous](#drivers-miscellaneous)
+	- [Drivers & Miscellaneous](#drivers--miscellaneous)
 	- [Emulation](#emulation)
 	- [File Compression](#file-compression)
 	- [File Downloading](#file-downloading)
 	- [File Sharing](#file-sharing)
 	- [Image](#image)
-	- [Internet & Network](#internet-network)
+	- [Internet & Network](#internet--network)
 	- [Joypad](#joypad)
 	- [Live-Streaming](#live-streaming)
-	- [Looks & Themes](#looks-themes)
+	- [Looks & Themes](#looks--themes)
 	- [Media](#media)
 	- [Office](#office)
 	- [Organization](#organization)
