@@ -85,6 +85,10 @@ hr
 		margin-bottom: 10px;
 	}
 
+	h1, h2, h3 {
+		color: $color_text;
+	}
+
 	h4, h5, h6 {
 		color: lighten($color_text, 30%);
 	}
@@ -161,8 +165,8 @@ hr
 	h1:before, h2:before, h3:before {
 		content: " ";
 		display: block;
-	    height: $fixed-height + 20px;
-		margin-top: -($fixed-height + 20px);
+	    height: $fixed-height + 40px;
+		margin-top: -($fixed-height + 40px);
 		visibility: hidden;
 	}
 }
@@ -176,7 +180,7 @@ hr
 	width: $page-side-width;
 }
 
-.page-side .page-side__links
+.page-side__links
 {
 	text-align: center;
 
@@ -197,7 +201,7 @@ hr
 		}
 	}
 }
-.page-side .page-side__credits
+.page-side__credits
 {
 	@extend .card;
 
