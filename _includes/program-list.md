@@ -37,7 +37,7 @@
 
 # Programs
 
-<div class="label-group programs">
+<div class="label-group">
 
 ### Anti-Virus & Firewall
 
@@ -50,6 +50,10 @@
 - {:free}[Hitman Pro][hitmanpro]
 
 </div>
+
+</div><!-- end of group -->
+
+<div class="label-group">
 
 ### Audio
 
@@ -86,6 +90,8 @@
 - {:paid}[FL Studio][flstudio]
 
 </div>
+
+</div><!-- end of group -->
 
 ### Drivers & Miscellaneous
 
