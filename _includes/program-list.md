@@ -125,6 +125,7 @@
 - {:free}[WinSCP][winscp]
 - {:free}[Cyberduck][cyberduck]
 - {:free}[Filezilla][filezilla]
+- {:paid}[CuteFTP][cuteftp]
 
 ##### SSH Clients
 
@@ -441,8 +442,6 @@ These programs add a program dock similar to OSX.
 - {:free}[HexChat][hexchat] an open-source IRC client
 - {:free}[Pidgin][pidgin]
 
-
-
 </div><!-- end of group -->
 
 <div class="label-group">
@@ -458,13 +457,18 @@ These programs add a program dock similar to OSX.
 
 <div class="label-group">
 
-### Video Capture
+### Video
 
-##### Screen
+##### Video Production
+
+- {:paid}[Sony Vegas Pro][vegaspro]
+- {:paid}[Adobe Premiere][adobe-premiere]
+
+##### Screen Capture
 
 - {:free}[GifCam][gifcam] records your screen and outputs it as a GIF
 
-##### Gaming
+##### Game Capture
 
 - {:rcpd}[Dxtory][dxtory]
 - {:paid}[Fraps][fraps]
@@ -561,4 +565,7 @@ These programs add a program dock similar to OSX.
 [paintnet]: http://www.getpaint.net/index.html
 [blender]: http://blender.org/
 [xmplay]: http://www.un4seen.com/
+[vegaspro]: http://www.sonycreativesoftware.com/vegaspro
+[adobe-premiere]: http://www.adobe.com/products/premiere.html
+[cuteftp]: http://www.cuteftp.com/
 {% endif %}
