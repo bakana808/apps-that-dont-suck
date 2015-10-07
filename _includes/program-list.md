@@ -339,6 +339,11 @@ These programs add a program dock similar to OSX.
 - {:free}[Advanced Renamer][advancedrenamer]
 - {:free}[Bulk Rename Utility][bulkrenameutility]
 
+##### File Searchers
+
+- {:free}[Everything][everything]
+- {:free}[Agent Ransack][agent-ransack]
+
 ##### Program Auto-Updaters
 
 - {:free}[Ninite][ninite] automatically update and install popular apps
@@ -531,4 +536,6 @@ These programs add a program dock similar to OSX.
 [clementine]: https://www.clementine-player.org/
 [musicbee]: http://getmusicbee.com/
 [rocketdock]: http://rocketdock.com/
+[everything]: http://www.voidtools.com/
+[agent-ransack]: https://www.mythicsoft.com/agentransack
 {% endif %}
