@@ -65,6 +65,7 @@
 - {:free}[Nightingale][nightingale]
 - {:free}[Clementine][clementine]
 - {:free}[MusicBee][musicbee]
+- {:free}[XMPlay][xmplay]
 
 </div>
 
@@ -225,7 +226,9 @@
 ##### Raster Editors
 
 - {:rcpd}[Adobe Photoshop][adobe photoshop]
-- {:free}[Gimp][gimp]
+- {:rcfr}[Gimp][gimp]
+- {:free}[Paint.NET][paintnet] since v4 it got hardware acceleration, so that's nice
+
 
 ##### Vector Editors
 
@@ -332,6 +335,10 @@ These programs add a program dock similar to OSX.
 
 <div class="label-group">
 
+### Modeling
+
+- {:rcfr}[Blender][blender]
+
 ### Organization
 
 ##### Bulk Renamers
@@ -367,6 +374,10 @@ These programs add a program dock similar to OSX.
 - {:free}[clover][clover] adds tabs to your file explorer
 
 - {:free}[WinDivvy](#) precise window tiling
+
+##### Drive Defraggers
+
+- {:free}[MyDefrag][mydefrag]
 
 </div><!-- end of group -->
 
@@ -421,8 +432,16 @@ These programs add a program dock similar to OSX.
 
 ### Social
 
+##### Calls & Messaging
+
 - {:free}[Skype][skype]
+
+##### Messaging
+
 - {:free}[HexChat][hexchat] an open-source IRC client
+- {:free}[Pidgin][pidgin]
+
+
 
 </div><!-- end of group -->
 
@@ -538,4 +557,8 @@ These programs add a program dock similar to OSX.
 [rocketdock]: http://rocketdock.com/
 [everything]: http://www.voidtools.com/
 [agent-ransack]: https://www.mythicsoft.com/agentransack
+[mydefrag]: http://filehippo.com/download_mydefrag/
+[paintnet]: http://www.getpaint.net/index.html
+[blender]: http://blender.org/
+[xmplay]: http://www.un4seen.com/
 {% endif %}
