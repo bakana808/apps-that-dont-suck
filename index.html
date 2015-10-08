@@ -1,27 +1,12 @@
 ---
 ---
-
-{% capture toc %}
-	{% include program-list.md toc=true %}
-	{% include website-list.md toc=true %}
-{% endcapture %}
-
-{% capture list %}
-	{% include program-list.md %}
-	{% include website-list.md %}
-{% endcapture %}
-
-{% capture contributors %}
-	{% include contributors.md %}
-{% endcapture %}
-
 <div class="page"><div class="wrapped">
 	<div class="page-side">
 		<div class="page-side__toc">
-			{{ toc | markdownify }}
+			{% include table-of-contents.html %}
 		</div>
 		<div class="page-side__credits">
-			{{ contributors | markdownify }}
+			{% include contributors.html %}
 		</div>
 		<div class="page-side__links">
 			<a href="https://github.com/theoctopod/essential-programs">
@@ -31,7 +16,8 @@
 	</div>
 	<div class="page-content">
 		<div class="page-content__list">
-			{{ list | markdownify }}
+			{% include program-list.html %}
+			{% include website-list.html %}
 		</div>
 	</div>
 </div></div>

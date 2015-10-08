@@ -1,0 +1,10 @@
+{% comment %}
+
+{% endcomment %}
+
+{% capture toc %}
+	{% include_absolute program-list.md toc=true %}
+	{% include_absolute website-list.md toc=true %}
+{% endcapture %}
+
+{{ toc | markdownify }}

@@ -1,8 +1,4 @@
 
-### Contributors
-
----
-
 - octopod
 - ~Kiwi~v2
 - KillerTele

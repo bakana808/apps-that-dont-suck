@@ -1,0 +1,7 @@
+{% capture contributors %}
+	{% include_absolute contributors.md %}
+{% endcapture %}
+
+<h3>Contributors</h3>
+<hr/>
+{{ contributors | markdownify }}

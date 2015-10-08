@@ -1,0 +1,5 @@
+{% capture programs %}
+	{% include_absolute program-list.md %}
+{% endcapture %}
+
+{{ programs | markdownify }}
