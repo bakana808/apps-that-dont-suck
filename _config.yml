@@ -3,6 +3,10 @@ exclude:
     - 'src/'
     - 'Gemfile'
     - 'Gemfile.lock'
+    - 'contributors.md'
+    - 'preface.md'
+    - 'program-list.md'
+    - 'website-list.md'
 defaults:
     -
         values:
