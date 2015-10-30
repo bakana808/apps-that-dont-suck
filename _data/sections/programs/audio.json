@@ -1,0 +1,67 @@
+{
+	"category": "Audio",
+	"groups": [
+		{
+			"group": "Players",
+			"items": [
+				{
+					"name": "foobar2000",
+					"url": "http://www.foobar2000.org/",
+					"recommended": true
+				},
+				{
+					"name": "Nightingale",
+					"url": "http://getnightingale.com/"
+				},
+				{
+					"name": "Clementine",
+					"url": "https://www.clementine-player.org/"
+				},
+				{
+					"name": "MusicBee",
+					"url": "http://getmusicbee.com/"
+				},
+				{
+					"name": "XMPlay",
+					"url": "http://www.un4seen.com/"
+				}
+			]
+		},
+		{
+			"group": "Virtual Audio Cables",
+			"items": [
+				{
+					"name": "Virtual Audio Cable",
+					"url": "http://software.muzychenko.net/eng/vac.htm",
+					"paid": true,
+					"recommended": true
+				},
+				{
+					"name": "VB-Audio Virtual Cable",
+					"url": "http://vb-audio.pagesperso-orange.fr/Cable/"
+				}
+			]
+		},
+		{
+			"group": "Editing",
+			"items": [
+				{
+					"name": "Audacity",
+					"url": "http://audacity.sourceforge.net/",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Music Production",
+			"items": [
+				{
+					"name": "FL Studio",
+					"url": "http://www.image-line.com/flstudio/",
+					"paid": true,
+					"recommended": true
+				}
+			]
+		}
+	]
+}

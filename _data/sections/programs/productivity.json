@@ -1,0 +1,38 @@
+{
+	"category": "Productivity",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "clover",
+					"description": "Adds tabs to your file explorer.",
+					"url": "http://ejie.me/"
+				},
+				{
+					"name": "WinDivvy",
+					"description": "Allows you to precisely resize your windows by tiles.",
+					"url": "http://mizage.com/windivvy/"
+				}
+			]
+		},
+		{
+			"group": "Office",
+			"items": [
+				{
+					"name": "LibreOffice",
+					"url": "http://www.libreoffice.org/",
+					"recommended": true
+				},
+				{
+					"name": "OpenOffice",
+					"url": "https://www.openoffice.org/"
+				},
+				{
+					"name": "Microsoft Office",
+					"url": "",
+					"paid": true
+				}
+			]
+		}
+	]
+}

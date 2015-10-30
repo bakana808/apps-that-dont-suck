@@ -1,10 +1,15 @@
-{% comment %}
+<div class="side__nav">
+<ul>
+	{% for section in site.data.sections %}
+	<li>
+		<span>{{ section[0] | capitalize }}</span>
 
-{% endcomment %}
-
-{% capture toc %}
-	{% include_absolute program-list.md toc=true %}
-	{% include_absolute website-list.md toc=true %}
-{% endcapture %}
-
-{{ toc | markdownify }}
+		<ul class="{{ section[0] }}">
+			{% for category in section[1] %}
+			<li><a href="#{{ section[0] | slugify }}-{{ category[1].category | slugify }}">{{ category[1].category }}</a></li>
+			{% endfor %}
+		</ul>
+	</li>
+	{% endfor %}
+</ul>
+</div>

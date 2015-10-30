@@ -1,0 +1,42 @@
+{
+	"category": "Internet &amp; Network",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "Fiddler",
+					"description": "A web debugging proxy.",
+					"url": "http://www.telerik.com/fiddler"
+				}
+			]
+		},
+		{
+			"group": "Browsers",
+			"items": [
+				{
+					"name": "Firefox",
+					"url": "https://www.mozilla.org/en-US/firefox/new/",
+					"recommended": true
+				},
+				{
+					"name": "Waterfox",
+					"description": "A high-performance branch of the Firefox project.",
+					"url": "https://www.waterfoxproject.org/"
+				},
+				{
+					"name": "Google Chrome",
+					"url": "http://www.google.com/chrome/",
+					"recommended": true
+				},
+				{
+					"name": "Vivaldi",
+					"url": "https://vivaldi.com/"
+				},
+				{
+					"name": "Pale Moon",
+					"url": "https://www.palemoon.org/"
+				}
+			]
+		}
+	]
+}

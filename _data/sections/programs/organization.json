@@ -1,0 +1,56 @@
+{
+	"category": "Organization",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "Ninite",
+					"description": "Automatically update and install popular programs.",
+					"url": "https://ninite.com/"
+				}
+			]
+		},
+		{
+			"group": "Cleaning",
+			"items": [
+				{
+					"name": "CCleaner",
+					"url": "https://www.piriform.com/ccleaner/download",
+					"recommended": true
+				},
+				{
+					"name": "Space Sniffer",
+					"description": "Visualizes locations on your drives as differently sized boxes depending on space used.",
+					"url": "http://www.uderzo.it/main_products/space_sniffer/"
+				},
+				{
+					"name": "MyDefrag",
+					"url": "http://filehippo.com/download_mydefrag/"
+				}
+			]
+		},
+		{
+			"group": "File Indexers",
+			"items": [
+				{
+					"name": "Everything",
+					"url": "http://www.voidtools.com/"
+				},
+				{
+					"name": "Agent Ransack",
+					"url": "https://www.mythicsoft.com/agentransack"
+				}
+			]
+		},
+		{
+			"group": "System Information",
+			"items": [
+				{
+					"name": "Speccy",
+					"description": "Lists all your hardware information specifications for easy bragging.",
+					"url": "https://www.piriform.com/speccy"
+				}
+			]
+		}
+	]
+}

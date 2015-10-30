@@ -1,0 +1,16 @@
+{
+	"category": "Archives",
+	"description": "Websites that have collections / databases of various things.",
+	"groups": [
+		{
+			"group": "Flash Files (SWF)",
+			"items": [
+				{
+					"name": "SWFChan",
+					"description": "Don't be surprised when you find porn that is obviously everywhere on this site.",
+					"url": "http://swfchan.net/"
+				}
+			]
+		}
+	]
+}

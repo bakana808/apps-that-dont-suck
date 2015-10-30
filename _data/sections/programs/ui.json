@@ -1,0 +1,52 @@
+{
+	"category": "UI",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "f.lux",
+					"description": "Tints your screen depending on time of day.",
+					"url": "https://justgetflux.com/",
+					"recommended": true
+				},
+				{
+					"name": "Classic Shell",
+					"description": "Restores \"classic\" windows features.",
+					"url": "http://www.classicshell.net/"
+				}
+			]
+		},
+		{
+			"group": "Docks",
+			"description": "These programs add a program dock similar to OSX.",
+			"items": [
+				{
+					"name": "RocketDock",
+					"url": "http://rocketdock.com/"
+				}
+			]
+		},
+		{
+			"group": "Widgets",
+			"description": "These programs add widgets to your desktop.",
+			"items": [
+				{
+					"name": "Rainmeter",
+					"url": "http://rainmeter.net/",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Visual Styles",
+			"description": "These programs allow you to completely theme your Windows system UI.",
+			"items": [
+				{
+					"name": "UXStyle",
+					"url": "http://uxstyle.com/",
+					"recommended": true
+				}
+			]
+		}
+	]
+}

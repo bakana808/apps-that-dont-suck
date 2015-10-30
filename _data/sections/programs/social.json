@@ -1,0 +1,32 @@
+{
+	"category": "Social",
+	"groups": [
+		{
+			"group": "Chat",
+			"items": [
+				{
+					"name": "Pidgin",
+					"url": "https://pidgin.im/"
+				}
+			]
+		},
+		{
+			"group": "Video &amp; Voice Chat",
+			"items": [
+				{
+					"name": "Skype",
+					"url": "http://www.skype.com/en/"
+				}
+			]
+		},
+		{
+			"group": "IRC",
+			"items": [
+				{
+					"name": "HexChat",
+					"url": "https://hexchat.github.io/"
+				}
+			]
+		}
+	]
+}

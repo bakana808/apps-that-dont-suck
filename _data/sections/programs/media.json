@@ -1,0 +1,49 @@
+{
+	"category": "Media",
+	"groups": [
+		{
+			"group": "Players",
+			"items": [
+				{
+					"name": "MPC-HC",
+					"url": "https://mpc-hc.org/"
+				},
+				{
+					"name": "VLC Media Player",
+					"url": "http://www.videolan.org/vlc/index.html"
+				}
+			]
+		},
+		{
+			"group": "Codecs",
+			"items": [
+				{
+					"name": "CCCP",
+					"url": "http://www.cccp-project.net/"
+				},
+				{
+					"name": "K-Lite",
+					"url": "http://www.codecguide.com/download_kl.htm"
+				}
+			]
+		},
+		{
+			"group": "Conversion",
+			"items": [
+				{
+					"name": "ffmpeg",
+					"url": "https://www.ffmpeg.org/",
+					"recommended": true
+				},
+				{
+					"name": "Miro Video Converter",
+					"url": "http://www.mirovideoconverter.com/"
+				},
+				{
+					"name": "FormatFactory",
+					"url": "http://www.pcfreetime.com/"
+				}
+			]
+		},
+	]
+}

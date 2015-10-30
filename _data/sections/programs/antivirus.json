@@ -1,0 +1,30 @@
+{
+	"category": "Antivirus &amp; Firewall",
+	"groups": [
+		{
+			"group":"",
+			"items": [
+				{
+					"name": "Comodo Internet Security",
+					"url": "https://www.comodo.com/home/internet-security/free-internet-security.php"
+				},
+				{
+					"name": "Avast",
+					"url": "https://www.avast.com/en-us/index"
+				},
+				{
+					"name": "Malwarebytes",
+					"url": "https://www.malwarebytes.org"
+				},
+				{
+					"name": "Kasperky",
+					"url": "http://usa.kaspersky.com/store/kaspersky-store?CAMPAIGN=GOO8497263&creativeID=51273018134&src_id=1&ksid=44fd235a-e053-8a88-ab8e-000013ae573c&ksprof_id=35&ksaffcode=29409&ksdevice=c"
+				},
+				{
+					"name": "Hitman Pro",
+					"url": "http://www.surfright.nl/en/hitmanpro"
+				}
+			]
+		}
+	]
+}

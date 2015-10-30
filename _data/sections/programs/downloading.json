@@ -1,0 +1,61 @@
+{
+	"category": "File Downloading & Sharing",
+	"groups": [
+		{
+			"group": "Cloud Syncing",
+			"items": [
+				{
+					"name": "Google Drive",
+					"url": "https://www.google.com/drive/",
+					"recommended": true
+				},
+				{
+					"name": "Dropbox",
+					"url": "https://www.dropbox.com/en/"
+				}
+			]
+		},
+		{
+			"group": "Screenshot Sharing",
+			"items": [
+				{
+					"name": "ShareX",
+					"url": "https://getsharex.com/",
+					"recommended": true
+				},
+				{
+					"name": "puush",
+					"url": "http://puush.me/"
+				}
+			]
+		},
+		{
+			"group": "Torrent Clients",
+			"items": [
+				{
+					"name": "Deluge",
+					"recommended": true
+				},
+				{
+					"name": "UTorrent"
+				},
+				{
+					"name": "BitTorrent"
+				},
+				{
+					"name": "QBitTorrent"
+				}
+			]
+		},
+		{
+			"group": "Website Media Downloaders",
+			"items": [
+				{
+					"name": "youtube-dl",
+					"url": "https://rg3.github.io/youtube-dl/",
+					"recommended": true
+				}
+			]
+		}
+	]
+}

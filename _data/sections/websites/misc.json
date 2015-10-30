@@ -1,0 +1,36 @@
+{
+	"category": "Miscellaneous",
+	"description": "Various things that don't fit with any category or needs a category.",
+	"groups": [
+		{
+			"group": "Services",
+			"items": [
+				{
+					"name": "Coinbase",
+					"description": "A bitcoin service.",
+					"url": "https://www.coinbase.com/"
+				}
+			]
+		},
+		{
+			"group": "Resources",
+			"items": [
+				{
+					"name": "nanami-tan",
+					"description": "An extensive list of Windows-related tutorials, recommended programs, and visual styles.",
+					"url": "http://nanami-tan.info/"
+				},
+				{
+					"name": "your logical fallacy is",
+					"description": "Shows common \"logical fallacies\" in arguments / debates.",
+					"url": "https://yourlogicalfallacyis.com/"
+				},
+				{
+					"name": "Text Mechanic",
+					"description": "Various text manipulation tools.",
+					"url": "http://textmechanic.com/"
+				}
+			]
+		}
+	]
+}

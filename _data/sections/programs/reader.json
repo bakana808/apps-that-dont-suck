@@ -1,0 +1,33 @@
+{
+	"category": "Readers",
+	"groups": [
+		{
+			"group": "PDF",
+			"items": [
+				{
+					"name": "Adobe Reader",
+					"url": "http://get.adobe.com/reader",
+					"recommended": true
+				},
+				{
+					"name": "sumatrapdf",
+					"url": ""
+				},
+				{
+					"name": "Adobe Reader XI",
+					"url": "http://www.adobe.com/products/reader.html",
+					"paid": true
+				}
+			]
+		},
+		{
+			"group": "Comic Book",
+			"items": [
+				{
+					"name": "CDisplay Ex",
+					"url": "http://www.cdisplayex.com/"
+				}
+			]
+		}
+	]
+}

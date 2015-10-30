@@ -1,0 +1,45 @@
+{
+	"category": "Programming",
+	"groups": [
+		{
+			"group": "GIT",
+			"items": [
+				{
+					"name": "GitHub",
+					"url": "https://github.com/",
+					"recommended": true
+				},
+				{
+					"name": "GitLab",
+					"description": "A nice alternative to GitHub, an upside being that the website itself is open-source, allowing you to host your own instance.",
+					"url": "https://gitlab.com/"
+				}
+			]
+		},
+		{
+			"group": "Resources &amp; Tutorials",
+			"items": [
+				{
+					"name": "Codecademy",
+					"description": "Learn to code in many popular web languages.",
+					"url": "http://www.codecademy.com/"
+				},
+				{
+					"name": "Choose A License",
+					"description": "Helps you choose the right license for your projects.",
+					"url": "http://choosealicense.com/licenses/"
+				},
+				{
+					"name": "open.gl",
+					"description": "Learn how to use OpenGL.",
+					"url": "https://open.gl/"
+				},
+				{
+					"name": "Regex101",
+					"description": "Debugs and explains regex you input into it. Great for testing.",
+					"url": "http://regex101.com/"
+				}
+			]
+		}
+	]
+}

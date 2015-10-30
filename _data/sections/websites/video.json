@@ -1,0 +1,18 @@
+{
+	"category": "Video",
+	"groups": [
+		{
+			"group": "Live-Streaming",
+			"items": [
+				{
+					"name": "twitch.tv",
+					"url": "http://www.twitch.tv/"
+				},
+				{
+					"name": "hitbox.tv",
+					"url": "http://www.hitbox.tv/"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"category": "Live-Streaming",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "Open Broadcaster Software",
+					"url": "https://obsproject.com/",
+					"recommended": true
+				},
+				{
+					"name": "XSplit",
+					"url": "https://www.xsplit.com/",
+					"paid": true,
+					"recommended": true
+				}
+			]
+		}
+	]
+}

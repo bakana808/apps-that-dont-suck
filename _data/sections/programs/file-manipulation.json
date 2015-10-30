@@ -1,0 +1,28 @@
+{
+	"category": "File Manipulation",
+	"groups": [
+		{
+			"group": "Compression",
+			"items": [
+				{
+					"name": "7zip",
+					"url": "http://www.7-zip.org",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Renamers",
+			"items": [
+				{
+					"name": "Advanced Renamer",
+					"url": "http://www.advancedrenamer.com/"
+				},
+				{
+					"name": "Bulk Rename Utility",
+					"url": "http://www.bulkrenameutility.co.uk/Main_Intro.php"
+				}
+			]
+		}
+	]
+}

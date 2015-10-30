@@ -1,0 +1,14 @@
+{
+	"category": "Modeling",
+	"groups": [
+		{
+			"items": [
+				{
+					"name": "Blender",
+					"url": "http://blender.org/",
+					"recommended": true
+				}
+			]
+		}
+	]
+}

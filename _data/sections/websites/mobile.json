@@ -1,0 +1,14 @@
+{
+	"category": "Mobile",
+	"groups": [
+		{
+			"group": "Resources",
+			"items": [
+				{
+					"name": "MyColorScreen",
+					"description": "A collection of smartphone themes for Android and iOS."
+				}
+			]
+		}
+	]
+}

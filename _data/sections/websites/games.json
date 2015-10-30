@@ -1,0 +1,30 @@
+{
+	"category": "Games",
+	"groups": [
+		{
+			"group": "Online Games",
+			"items": [
+				{
+					"name": "10FastFingers",
+					"description": "A competitive 1-minute typing game.",
+					"url": "http://10fastfingers.com/"
+				}
+			]
+		},
+		{
+			"group": "Marketplace",
+			"items": [
+				{
+					"name": "Humble Bundle",
+					"url": "https://www.humblebundle.com/",
+					"recommended": true
+				},
+				{
+					"name": "Steam",
+					"url": "http://store.steampowered.com/",
+					"recommended": true
+				}
+			]
+		}
+	]
+}

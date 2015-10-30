@@ -1,0 +1,96 @@
+{
+	"category": "Console Emulators",
+	"groups": [
+		{
+			"group": "Multi-System",
+			"items": [
+				{
+					"name": "mednafen"
+				},
+				{
+					"name": "retroarch"
+				},
+			]
+		},
+		{
+			"group": "Gameboy Advance (GBA) / Gameboy Color (GBC)",
+			"items": [
+				{
+					"name": "vba-m"
+				},
+				{
+					"name": "VisualBoyAdvance"
+				}
+			]
+		},
+		{
+			"group": "Nintendo 64 (N64)",
+			"items": [
+				{
+					"name": "Project64"
+				},
+				{
+					"name": "Mupen64Plus"
+				}
+			]
+		},
+		{
+			"group": "Nintendo DS (NDS)",
+			"items": [
+				{
+					"name": "Desmume"
+				}
+			]
+		},
+		{
+			"group": "Nintendo WII (WII) / Nintendo Gamecube (GCN)",
+			"items": [
+				{
+					"name": "Dolphin Emulator",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Sony Playstation (PSX)",
+			"items": [
+				{
+					"name": "ePSXe"
+				},
+				{
+					"name": "pcsx-r"
+				}
+			]
+		},
+		{
+			"group": "Sony Playstation 2 (PS2)",
+			"items": [
+				{
+					"name": "PCSX2",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Sony Playstation Portable (PSP)",
+			"items": [
+				{
+					"name": "PPSSPP",
+					"recommended": true
+				}
+			]
+		},
+		{
+			"group": "Super Nintendo (SNES)",
+			"items": [
+				{
+					"name": "SNES9x",
+					"recommended": true
+				},
+				{
+					"name": "ZSNES"
+				}
+			]
+		}
+	]
+}

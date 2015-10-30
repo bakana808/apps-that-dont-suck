@@ -1,0 +1,43 @@
+{
+	"category": "Video",
+	"groups": [
+		{
+			"group": "Production",
+			"items": [
+				{
+					"name": "Sony Vegas Pro",
+					"url": "http://www.sonycreativesoftware.com/vegaspro"
+				},
+				{
+					"name": "Adobe Premiere",
+					"url": "http://www.adobe.com/products/premiere.html"
+				}
+			]
+		},
+		{
+			"group": "Screen Capture",
+			"items": [
+				{
+					"name": "GifCam",
+					"url": "http://blog.bahraniapps.com/gifcam/"
+				}
+			]
+		},
+		{
+			"group": "Game Capture",
+			"items": [
+				{
+					"name": "Dxtory",
+					"url": "http://exkode.com/dxtory-downloads-en.html",
+					"paid": true,
+					"recommended": true
+				},
+				{
+					"name": "Fraps",
+					"url": "http://www.fraps.com/",
+					"paid": true
+				}
+			]
+		}
+	]
+}

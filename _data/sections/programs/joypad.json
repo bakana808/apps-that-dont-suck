@@ -1,0 +1,33 @@
+{
+	"category": "Joypad",
+	"groups": [
+		{
+			"group": "Input Mappers",
+			"description": "Translates joypad input to keyboard &amp; mouse.",
+			"items": [
+				{
+					"name": "Joy2Key",
+					"url": "http://joytokey.net/en/",
+					"paid": true,
+					"recommended": true
+				},
+				{
+					"name": "Xpadder",
+					"url": "http://www.xpadder.com/",
+					"paid": true
+				}
+			]
+		},
+		{
+			"group": "Xinput Mappers",
+			"description": "Translates third-party joypad input to Xbox Controller (Xinput) input.",
+			"items": [
+				{
+					"name": "DS4Windows",
+					"url": "http://ds4windows.com/",
+					"recommended": true
+				}
+			]
+		}
+	]
+}

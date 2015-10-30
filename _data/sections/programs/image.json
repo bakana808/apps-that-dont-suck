@@ -1,0 +1,61 @@
+{
+	"category": "Image",
+	"groups": [
+		{
+			"group": "Viewers",
+			"items": [
+				{
+					"name": "XnView",
+					"url": "http://www.xnview.com/en/xnview/"
+				},
+				{
+					"name": "Honeyview",
+					"url": "http://www.bandisoft.com/honeyview/"
+				},
+				{
+					"name": "HandBrake",
+					"url": "https://handbrake.fr/"
+				},
+				{
+					"name": "irfanview",
+					"url": ""
+				}
+			]
+		},
+		{
+			"group": "Raster Editors",
+			"items": [
+				{
+					"name": "Adobe Photoshop",
+					"url": "http://www.adobe.com/products/photoshop.html",
+					"paid": true,
+					"recommended": true
+				},
+				{
+					"name": "GIMP",
+					"url": "http://www.gimp.org/",
+					"recommended": true
+				},
+				{
+					"name": "Paint.NET",
+					"url": ""
+				}
+			]
+		},
+		{
+			"group": "Vector Editors",
+			"items": [
+				{
+					"name": "Adobe Illustrator",
+					"url": "http://www.adobe.com/products/illustrator.html",
+					"paid": true,
+					"recommended": true
+				},
+				{
+					"name": "Inkscape",
+					"url": "https://inkscape.org/en/"
+				}
+			]
+		}
+	]
+}

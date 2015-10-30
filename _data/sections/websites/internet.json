@@ -1,0 +1,14 @@
+{
+	"category": "Internet &amp; Network",
+	"groups": [
+		{
+			"group": "Internet Speed Testers",
+			"items": [
+				{
+					"name": "SpeedTest",
+					"url": "http://www.speedtest.net/"
+				}
+			]
+		}
+	]
+}

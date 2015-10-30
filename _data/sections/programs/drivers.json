@@ -1,0 +1,94 @@
+{
+	"category": "Drivers &amp; Miscellaneous",
+	"groups": [
+		{
+			"group": "Adobe Flash",
+			"description": "Flash is not recommended as it may be rendered obsolete by HTML5.",
+			"items": [
+				{
+					"name": "Adobe Flash Player",
+					"url": "http://get.adobe.com/flashplayer"
+				}
+			]
+		},
+		{
+			"group": "Audio",
+			"items": [
+				{
+					"name": "Realtek High Definition Audio",
+					"url": "http://www.realtek.com.tw/downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3&GetDown=false#High Definition Audio Codecs",
+					"description": "Your motherboard may need its own specific version of this driver.",
+					"recommended": true
+				},
+				{
+					"name": "UNi Xonar Unified Drivers",
+					"url": "http://maxedtech.com/asus-xonar-unified-drivers/"
+				}
+			]
+		},
+		{
+			"group": "Linux Functionality",
+			"description": "These programs emulate Linux features on non-Linux systems.",
+			"items": [
+				{
+					"name": "MinGW",
+					"url": "http://www.mingw.org/"
+				},
+				{
+					"name": "Cygwin",
+					"url": "https://www.cygwin.com/"
+				}
+			]
+		},
+		{
+			"group": "Java",
+			"items": [
+				{
+					"name": "Java 7 Runtime Environment (JRE)",
+					"url": "http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html",
+					"recommended": true
+				},
+				{
+					"name": "Java 7 Development Kit (JDK)",
+					"url": "http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html"
+				}
+			]
+		},
+		{
+			"group": "FTP Clients",
+			"items": [
+				{
+					"name": "WinSCP",
+					"url": "https://winscp.net/eng/download.php"
+				},
+				{
+					"name": "Cyberduck",
+					"url": "https://cyberduck.io/?l=en"
+				},
+				{
+					"name": "Filezilla",
+					"url": "https://filezilla-project.org/"
+				},
+				{
+					"name": "CuteFTP",
+					"url": "http://www.cuteftp.com/",
+					"paid": true
+				}
+			]
+		},
+		{
+			"group": "SSH Clients",
+			"items": [
+				{
+					"name": "PuTTY",
+					"url": "http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
+				},
+				{
+					"name": "KiTTY",
+					"description": "A Windows-only fork of PuTTY that adds many improvements.",
+					"url": "http://kitty.9bis.net/"
+				}
+			]
+		}
+	]
+}

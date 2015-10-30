@@ -1,0 +1,60 @@
+{
+	"category": "Programming",
+	"groups": [
+		{
+			"group": "GIT",
+			"items": [
+				{
+					"name": "Git SCM",
+					"url": "http://git-scm.com/",
+					"recommended": true
+				},
+				{
+					"name": "GitHub Desktop",
+					"url": "https://desktop.github.com/"
+				}
+			]
+		},
+		{
+			"group": "IDEs",
+			"items": [
+				{
+					"name": "Microsoft Visual Studio",
+					"description": "An IDE for C++, C#, and VB.net.",
+					"url": "",
+					"recommended": true
+				},
+				{
+					"name": "Intellij IDEA",
+					"description": "An IDE for Java and Javascript.",
+					"url": "",
+					"recommended": true
+				},
+				{
+					"name": "Eclipse",
+					"description": "An IDE for Java",
+					"url": ""
+				}
+			]
+		},
+		{
+			"group": "Text Editors",
+			"items": [
+				{
+					"name": "Atom",
+					"url": "https://atom.io/",
+					"recommended": true
+				},
+				{
+					"name": "Notepad++",
+					"url": "http://notepad-plus-plus.org/"
+				},
+				{
+					"name": "Sublime Text",
+					"url": "http://www.sublimetext.com/",
+					"paid": true
+				}
+			]
+		}
+	]
+}
