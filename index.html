@@ -1,23 +1,16 @@
 ---
 ---
+
 <div class="page"><div class="wrapped">
-	<div class="page-side">
-		<div class="page-side__toc">
+	<div class="side">
+		<div class="side__nav">
 			{% include table-of-contents.html %}
-		</div>
-		<div class="page-side__credits">
 			{% include contributors.html %}
 		</div>
-		<div class="page-side__links">
-			<a href="https://github.com/theoctopod/essential-programs">
-				<span class="mega-octicon octicon-mark-github"/>
-			</a>
-		</div>
 	</div>
-	<div class="page-content">
-		<div class="page-content__list">
-			{% include program-list.html %}
-			{% include website-list.html %}
+	<div class="content">
+		<div class="content__list">
+			{% include sections.html %}
 		</div>
 	</div>
 </div></div>
