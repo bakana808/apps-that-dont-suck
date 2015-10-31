@@ -183,11 +183,12 @@ $page_width: 1000px;
 
 //=============================================================================
 // Side
-
+//
+$side_padding: 20px;
 $side_width: 220px;
 
-$side_background: #2e3237;
-$side_font_color: transparentize(rgba(255, 255, 255, 1), 0.4);
+$side_background: #dadfe6;
+$side_font_color: transparentize(rgba(0, 0, 0, 1), 0.4);
 
 .side {
 	position: fixed;
@@ -196,23 +197,24 @@ $side_font_color: transparentize(rgba(255, 255, 255, 1), 0.4);
 
 	// extend background to left edge
 	padding-left: 100%; margin-left: -100%;
-
+	padding-right: $side_padding;
 	background: $side_background;
 	color: $side_font_color;
 
-	width: $side_width;
+	width: $side_width - $side_padding;
 	height: 100%;
 }
 
 .side__nav
 {
 	text-align: left;
-	width: $side_width;
-	float: right;
+	width: $side_width - $side_padding;
 
 	color: $side_font_color;
 
 	margin: 0px; padding: 0px;
+
+	border-bottom: solid 2px #84888e;
 
 	ul {
 		list-style: none;
@@ -230,14 +232,12 @@ $side_font_color: transparentize(rgba(255, 255, 255, 1), 0.4);
 .side__credits
 {
 	// @extend .card;
-
+	//
+	width: $side_width - $side_padding;
 	ul {
 		font-family: Tahoma,Helvetica,Arial,Verdana;
 		color: #A06000;
 		font-weight: bold;
-
-		display: table;
-		margin: 0 auto;
 		//text-align: center;
 		list-style: none;
 		padding: 0;
