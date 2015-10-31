@@ -1,4 +1,4 @@
-{% assign sections = site.data.sections | sort: '0' %}
+{% assign sections = (site.data.sections | sort:0) %}
 
 {% for section in sections %}
 <h1>{{ section[0] | capitalize }}</h1>
