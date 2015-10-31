@@ -1,5 +1,7 @@
+{% assign sections = site.data.sections | sort: 0 %}
+
 <ul>
-	{% for section in site.data.sections %}
+	{% for section in sections %}
 	<li>
 		<span>{{ section[0] | capitalize }}</span>
 
