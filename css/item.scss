@@ -21,9 +21,7 @@ $label_padding: 2px;
 $label_inner_height: $label_height - ( $label_padding * 2 );
 $label-border: #e6e6e6;
 
-div.label-group {
-
-	border-bottom: solid 2px $label-border;
+div.category {
 
 	padding-bottom: 0px;
 	margin-bottom: 20px;
@@ -55,9 +53,14 @@ div.label-group {
 	}
 }
 
-div.label-subgroup {
+div.group {
+
 	padding-bottom: 20px;
 	// border-top: 2px solid $card_shadow_color;
+
+	.group--description {
+		color: transparentize(black, 0.5);
+	}
 }
 
 div.item {
@@ -74,7 +77,7 @@ div.item {
 	border-radius: 3px;
 
 	line-height: $label_inner_height;
-	font-size: 1.1em;
+	font-size: 1em;
 
 	p { margin: 0px; }
 	strong { font-weight: inherit; }
@@ -91,7 +94,7 @@ div.item {
 		}
 	}
 
-	.item--desc {
+	.item--description {
 		p {
 			color: rgba(0, 0, 0, 0.5);
 			padding-bottom: $label_padding;
@@ -118,7 +121,7 @@ div.item {
 	}
 
 	&.item__free {
-		background: transparentize($label--free, 0.95);
+		//background: transparentize($label--free, 0.95);
 		& .item--label {
 			visibility: visible;
 			background: $label--free;
@@ -134,7 +137,7 @@ div.item {
 	}
 
 	&.item__paid {
-		background: transparentize($label--paid, 0.95);
+		//background: transparentize($label--paid, 0.95);
 		& .item--label {
 			visibility: visible;
 			background: $label--paid;

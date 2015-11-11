@@ -1,15 +1,17 @@
 {% assign sections = (site.data.sections | sort:0) %}
 
-<ul>
-	{% for section in sections %}
-	<li>
-		<span>{{ section[0] | capitalize }}</span>
+<div class="table-of-contents">
+	<ul>
+		{% for section in sections %}
+		<li>
+			<span class="section-title">{{ section[0] | capitalize }}</span>
 
-		<ul class="{{ section[0] }}">
-			{% for category in section[1] %}
-			<li><a href="#{{ section[0] | slugify }}-{{ category[1].category | slugify }}">{{ category[1].category }}</a></li>
-			{% endfor %}
-		</ul>
-	</li>
-	{% endfor %}
-</ul>
+			<ul class="{{ section[0] }}">
+				{% for category in section[1] %}
+				<li><a class="category-title" href="#{{ section[0] | slugify }}-{{ category[1].category | slugify }}">{{ category[1].category }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% endfor %}
+	</ul>
+</div>

@@ -6,14 +6,13 @@
 <div class="section">
 	{% for category in section[1] %}
 	<!-- {{category[1].category}} Category -->
-	<div class="label-group">
-		<h3 id="{{ section[0] | slugify }}-{{ category[1].category | slugify }}">{{ category[1].category }}</h3>
-		{% for group in category[1].groups %}<div class="label-subgroup">
+	<div class="category">
+		{% for group in category[1].groups %}<div class="group">
 			{% if group.group != null or group.group == "" %}
-			<h4 class="list__title">{{ group.group }}</h4>
+			<h4 class="group--title">{{ group.group }}</h4>
 			{% endif %}
 			{% if group.description != null or group.description == "" %}
-			<p class="list__description">{{ group.description }}</p>
+			<p class="group--description">{{ group.description }}</p>
 			{% endif %}
 			<ul>
 				{% for item in group.items %}
@@ -33,7 +32,7 @@
 						{% else %}
 						<span class="item--name"><a href="{{ item.url }}">{{ item.name }}</a></span>
 						{% endif %}
-						<span class="item--desc"><p>{{ item.description }}</p></span>
+						<span class="item--description"><p>{{ item.description }}</p></span>
 					</div>
 				</li>
 				{% endfor %}

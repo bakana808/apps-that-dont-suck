@@ -3,7 +3,7 @@
 
 @import 'item';
 
-$bg: #fafafa;
+$bg: #FFFFFF;
 
 $font_color: #383636;
 
@@ -16,6 +16,12 @@ $header-width: 1000px;
 $page-width: 1000px;
 $page-side-width: 220px;
 $page-content-width: $page-width - $page-side-width - 20px;
+
+$side_padding: 20px;
+$side_width: 240px;
+
+$side_background: #544538;
+$side_font_color: transparentize(white, 0.4);
 
 @mixin animation($animation...) {
 	-webkit-animation: $animation;
@@ -34,7 +40,7 @@ body
 	-webkit-font-smoothing: antialiased;
 
 	font-family: "Open Sans", freesans, sans-serif;
-	font-size: 14px;
+	font-size: 15.5px;
 	line-height: 2;
 
 	h1, #title {
@@ -60,15 +66,6 @@ body
 			text-decoration: none;
 		}
 	}
-}
-
-hr
-{
-	height: 2px;
-    padding: 0;
-    margin: 16px 0;
-    // background-color: $card_shadow_color;
-    border: 0 none;
 }
 
 /*
@@ -140,7 +137,9 @@ $page_width: 1000px;
 
 	& .wrapped {
 		overflow: auto;
-		width: $page_width;
+		//max-width: $page_width;
+		max-width: 100%;
+		min-width: $side_width + 240px;
 		margin: 0px auto;
 	}
 }
@@ -150,7 +149,7 @@ $page_width: 1000px;
 	display: inline-block;
 	margin-right: auto;
 	margin-left: 10px;
-	width: $page-content-width;
+	max-width: $page-content-width;
 
 	h1:before, h2:before, h3:before {
 		content: " ";
@@ -161,94 +160,61 @@ $page_width: 1000px;
 	}
 }
 
-// the main program / website list
-// let bold mean "recommended" and italics mean "paid"
-// bold and italics should be a separate color
-.page-content__list {
-	width: auto;
-	padding: 20px 0px;
-
-	> h1 {
-		text-align: center;
-	}
-
-	> h1, > h2, > h3, > h4, > h5, > h6 {
-		// @extend .card;
-	}
-
-	*:first-child {
-		margin-top: 0;
-	}
-}
-
 //=============================================================================
 // Side
 //
-$side_padding: 20px;
-$side_width: 220px;
-
-$side_background: #dadfe6;
-$side_font_color: transparentize(rgba(0, 0, 0, 1), 0.4);
 
 .side {
-	position: fixed;
+	//position: fixed;
 	float: left;
 	display: inline-block;
 
 	// extend background to left edge
 	padding-left: 100%; margin-left: -100%;
+
 	padding-right: $side_padding;
 	background: $side_background;
 	color: $side_font_color;
 
 	width: $side_width - $side_padding;
-	height: 100%;
+	height: inherit;
+
 }
 
 .side__nav
 {
 	text-align: left;
-	width: $side_width - $side_padding;
+	width: $side_width - $side_padding - $side_padding;
 
 	color: $side_font_color;
 
 	margin: 0px; padding: 0px;
+	padding-left: $side_padding;
 
-	border-bottom: solid 2px #84888e;
+	h1, h2, h3, h4, h5, h6 {
+		&:first-child {
+			margin-top: 10px;
+		}
+	}
 
 	ul {
 		list-style: none;
 		padding: 0;
 	}
-
-	li > span { // topmost names eg. "Programs" or "Websites"
-		font-weight: bold;
-		font-size: 1.1em;
-		text-transform: uppercase;
-		padding-bottom: 10px;
-	}
 }
 
-.side__credits
-{
-	// @extend .card;
-	//
-	width: $side_width - $side_padding;
-	ul {
-		font-family: Tahoma,Helvetica,Arial,Verdana;
-		color: #A06000;
+.table-of-contents {
+
+	& .section-title {
+
 		font-weight: bold;
-		//text-align: center;
-		list-style: none;
-		padding: 0;
 	}
-}
 
-.side .side__nav
-{
-	// @extend .card;
+	& .category-title {
 
-	transition-duration: 10ms;
+		font-size: 0.9em;
+		padding-left: 20px;
+	}
 
 	li a, a
 	{
@@ -266,52 +232,22 @@ $side_font_color: transparentize(rgba(0, 0, 0, 1), 0.4);
 			color: #ffffff;
 		}
 	}
+}
 
-	ul > li > ul {
-		display: none;
-		opacity: 0;
-	}
+.side__credits
+{
+	// @extend .card;
+	//
+	width: $side_width - $side_padding;
+	padding-left: $side_padding;
 
-	ul.programs.selected,
-	ul.websites.selected
-	{
-		display: block;
-		opacity: 100;
-		@include animation(fadein 1s);
-	}
-
-	@keyframes fadein
-	{
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
-
-	/* Firefox < 16 */
-	@-moz-keyframes fadein
-	{
-	    from { opacity: 0; }
-	    to   { opacity: 1; }
-	}
-
-	/* Safari, Chrome and Opera > 12.1 */
-	@-webkit-keyframes fadein
-	{
-	    from { opacity: 0; }
-	    to   { opacity: 1; }
-	}
-
-	/* Internet Explorer */
-	@-ms-keyframes fadein
-	{
-	    from { opacity: 0; }
-	    to   { opacity: 1; }
-	}
-
-	/* Opera < 12.1 */
-	@-o-keyframes fadein
-	{
-	    from { opacity: 0; }
-	    to   { opacity: 1; }
+	ul {
+		font-family: Tahoma,Helvetica,Arial,Verdana;
+		color: #A06000;
+		font-weight: bold;
+		//text-align: center;
+		list-style: none;
+		padding: 0;
 	}
 }
 
@@ -321,8 +257,8 @@ $side_font_color: transparentize(rgba(0, 0, 0, 1), 0.4);
 $content_width: $page_width - $side_width;
 
 .content {
-	width: $content_width;
-	float: right;
+	max-width: $content_width;
+	margin-left: $side_width;
 
 	h1 {
 		text-transform: uppercase;
@@ -344,4 +280,5 @@ $content_width: $page_width - $side_width;
 
 .content__list {
 	padding-left: 30px;
+	padding-right: 30px;
 }
