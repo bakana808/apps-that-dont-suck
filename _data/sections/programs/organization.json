@@ -7,6 +7,11 @@
 					"name": "Ninite",
 					"description": "Automatically update and install popular programs.",
 					"url": "https://ninite.com/"
+				},
+				{
+					"name": "Chocolatey",
+					"description": "A package manager for Windows.",
+					"url": "https://chocolatey.org/"
 				}
 			]
 		},
@@ -49,6 +54,10 @@
 					"name": "Speccy",
 					"description": "Lists all your hardware information specifications for easy bragging.",
 					"url": "https://www.piriform.com/speccy"
+				},
+				{
+					"name": "CPU-Z",
+					"url": "http://www.cpuid.com/softwares/cpu-z.html"
 				}
 			]
 		}

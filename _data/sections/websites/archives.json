@@ -3,6 +3,17 @@
 	"description": "Websites that have collections / databases of various things.",
 	"groups": [
 		{
+			"group": "Mixed",
+			"items": [
+				{
+					"name": "Internet Archive",
+					"description": "A non-profit library on the Internet",
+					"url": "https://archive.org/"
+				}
+			]
+			
+		},		
+		{
 			"group": "Flash Files (SWF)",
 			"items": [
 				{
@@ -14,3 +25,4 @@
 		}
 	]
 }
+

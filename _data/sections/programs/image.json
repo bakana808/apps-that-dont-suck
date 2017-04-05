@@ -19,6 +19,10 @@
 				{
 					"name": "irfanview",
 					"url": ""
+				},
+				{
+					"name": "JPEGView",
+					"url": "https://sourceforge.net/projects/jpegview/"
 				}
 			]
 		},
