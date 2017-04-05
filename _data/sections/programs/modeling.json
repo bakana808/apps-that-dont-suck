@@ -1,5 +1,5 @@
 {
-	"category": "Modeling",
+	"category": "3D editing packages",
 	"groups": [
 		{
 			"items": [
@@ -7,6 +7,16 @@
 					"name": "Blender",
 					"url": "http://blender.org/",
 					"recommended": true
+				},
+				{
+					"name": "Cinema 4D",
+					"url": "https://www.maxon.net/en/products/cinema-4d/overview/",
+					"paid": true
+				},
+				{
+					"name": "3DS MAX",
+					"url": "http://www.autodesk.com/products/3ds-max/overview",
+					"paid": true
 				}
 			]
 		}

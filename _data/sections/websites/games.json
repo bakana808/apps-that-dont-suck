@@ -23,6 +23,11 @@
 					"name": "Steam",
 					"url": "http://store.steampowered.com/",
 					"recommended": true
+				},
+				{
+					"name": "Origin",
+					"description": "Digital store for mainly EA games.",
+					"url": "https://www.origin.com"
 				}
 			]
 		}

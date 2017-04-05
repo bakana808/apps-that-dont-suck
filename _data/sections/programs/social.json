@@ -16,6 +16,10 @@
 				{
 					"name": "Skype",
 					"url": "http://www.skype.com/en/"
+				},
+				{
+					"name": "Discord",
+					"url": "https://discordapp.com"
 				}
 			]
 		},
